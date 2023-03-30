@@ -1,4 +1,4 @@
-% Created 2023-03-30 Thu 19:40
+% Created 2023-03-31 Fri 01:36
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
     \usepackage{blindtext}
@@ -37,11 +37,13 @@
 
     \linespread{1.1}
     \hypersetup{pdfborder=0 0 0}
-\author{Ved Rudani Vijay Panchal}
+\author{Ved Rudani, 64 \\
+Vijay Panchal, 65}
 \date{\today}
 \title{Frequency Generator using OpAmp}
 \hypersetup{
- pdfauthor={Ved Rudani Vijay Panchal},
+ pdfauthor={Ved Rudani, 64 \\
+Vijay Panchal, 65},
  pdftitle={Frequency Generator using OpAmp},
  pdfkeywords={},
  pdfsubject={},
@@ -55,19 +57,24 @@
 \pagebreak
 
 \begin{center}
-\Large
+\Huge
 \textbf{Function Generator using OpAmp}
 
 
-\vspace{0.9cm}
+\vspace{0.3cm}
 \normalsize
-\textbf{Ved Rudani}
+This project showcases DIY Function generator with satisfactory range and accuracy
 
 
-\textbf{Vijay Panchal}
+\vspace{0.6cm}
+\textbf{Ved Rudani, 64}
 
 
-\vspace{1.5cm}
+\vspace{0.1cm}
+\textbf{Vijay Panchal, 65}
+
+
+\vspace{1cm}
 
 
 \colorbox{bg1}{
@@ -93,7 +100,7 @@
 
 
 \section{Introduction}
-\label{sec:org78ed879}
+\label{sec:orga831efd}
 Function generator is circuit which generates periodic function with predictable frequencies with respect to time. Here, we will study only mono frequency generator but it can also generate superposed functions. Signals from Function generator comes in many forms but mostly it is either sinusoidal or square wave. We will generate sinusoidal, square and triangle wave as output. 
 
 We used basic circuits with few modification as our need. With use of IC LM741 we used OpAmp in our circuit. 
@@ -103,7 +110,7 @@ For Sinusoidal wave we used Wein Bridge circuit, which is easy to understand and
 Now, each circuit ( this wave form generator) has different block, basically we divided whole circuit in there block. Main work for us is to combine all of this. We wandered across CMOS families, BJTs but finally we sattled into physical swith which is coupled for power transmission and also for output change.
 
 \section{Blocks}
-\label{sec:orgaa23a61}
+\label{sec:org79cad12}
 
 
 As told in introduction each circuit is in their blocks. First block for sine wave which is nothing but wien bridge circuit, second is sqaure which is astable multivibrator, third for triangular wave which integrator attached to second block (square wave block).
@@ -112,43 +119,45 @@ As told in introduction each circuit is in their blocks. First block for sine wa
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.95\textwidth]{imgs/blocks.png}
-\caption{\label{fig:org8486585}Block diagram of our function generator}
+\caption{\label{fig:org9716e1a}Block diagram of our function generator}
 \end{figure}
 
 
 \subsection{Block 1: Sine wave generator}
-\label{sec:orga76e445}
+\label{sec:orgc625de2}
 
 
 In first block, we have basic circuit of wein bridge. You can see in figure 1. In center we have OpAmp (IC LM741). This is amplifier with RC component attached with input and output. Here, at one end there is RC parallel component and at other end series RC component. 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=.7\textwidth]{imgs/sine.png}
-\caption{\label{fig:orgd972286}Wein bridge circuit}
+
+\begin{figure}[ht]
+    \centering
+    \label{sine}
+    \includegraphics[width=0.7\textwidth]{imgs/sine.png}
+    \caption{Wein bridge circuit}
 \end{figure}
 
 Here, frequency is given by, 
 
 \begin{equation}
-\label{eq:orgb803ed2}
+\label{eq:org03f5ba8}
   f =\frac{1}{2 \pi RC}
 \end{equation}
 
 For sustaing oscilation gain must be 3 and for non inverting amplifier gain, 
 
 \begin{equation}
-\label{eq:orgb4bae7a}
+\label{eq:org073ea81}
   A = 1+\frac{R_{F}}{R_{1}} = 3
 \end{equation}
 
 So, we get relation \(R_{F}=R_{1}\)
 
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.95 \textwidth]{imgs/sinereal.png}
-\caption{\label{fig:org22ba6e0}Our block 1, which consinst of IC741CP}
+\begin{figure}[ht]
+    \centering
+    \label{sinereal}
+    \includegraphics[width=0.9\textwidth]{imgs/sinereal.png}
+    \caption{Our block 1, which consinst of IC741CP}
 \end{figure}
 
 
@@ -157,12 +166,12 @@ Here, you can see our block circuit, at the end we attached two zener diode for 
 For frequency range we used Potential with max range of \(100k\Omega\). So, lowest and maximum frequency whould be (with constant capacitance at \(50nF\)),
 
 \begin{equation*}
-\label{eq:org42211f7}
+\label{eq:orga466ec1}
   f_{min} = \frac{1}{2\pi\times100k\times 10n} \approx 159 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:orgc1296c7}
+\label{eq:orgfba4eff}
   f_{max} = \frac{1}{2\pi\times100\times 10n} \approx 159k hz
 \end{equation*}
 
@@ -170,80 +179,129 @@ So, frequency range would be \(159 hz\) to \(159k hz\)
 
 
 \subsection{Block 2: Square wave generator}
-\label{sec:org0b9a3e3}
+\label{sec:org4767e83}
 
 As square wave generator we have basic astable multivibrator. This circuit works on scenario where output will have to stable state and it will swing between them, hence the name. When circuit is \(+V_{sat}\), we will have high signal output and when circuit is \(-V_{sat}\), we will have low signal output. So, we will have square wave as desired. The circuit for astable multivibrator is shown below.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.7 \textwidth]{imgs/square.png}
-\caption{\label{fig:org26c3f2e}astable multivibrator circuit}
+\begin{figure}[H]
+    \centering
+    \label{square}
+    \includegraphics[width=0.7\textwidth]{imgs/square.png}
+    \caption{astable multivibrator circuit}
 \end{figure}
+
 
 Here, frequency would be, 
 
 \begin{equation}
-\label{eq:orgcdc5051}
+\label{eq:org77f350e}
   f =\frac{1}{2 RC ln(\frac{2R_{1}+R_{2}}{R_{2}})}
 \end{equation}
 
 If, we take \(R_{2}=1.16R_{1}\) then, 
 
 \begin{equation}
-\label{eq:org2f007fe}
+\label{eq:orgd07ae13}
   f =\frac{1}{2RC}
 \end{equation}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.95 \textwidth]{imgs/squarereal.png}
-\caption{\label{fig:org3bf3901}second block: square wave generator}
+
+\begin{figure}[H]
+    \centering
+    \label{squarereal}
+    \includegraphics[width=0.85\textwidth]{imgs/squarereal.png}
+    \caption{second block: square wave generator}
 \end{figure}
+
 
 Here, we took \(R_{1} = 10k\Omega\) and \(R_{2} = 11.6k\Omega\) such that \(\frac{R_{2}}{R_{1}}=1.16\). Also, you can see that we employed \(100k\Omega\) in input terminals for accurate and reliable signal.
 
 Frequency range would be of (for constant capacitance at \(50nF\)),
 
 \begin{equation*}
-\label{eq:orgaa994ed}
+\label{eq:org34ca56b}
   f_{min} =\frac{1}{2\times 100k\times 50n} \approx 100 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:org3470ed3}
+\label{eq:org52cfe5e}
   f_{max} =\frac{1}{2\times 100 \times 50n} \approx 100 khz
 \end{equation*}
 
 
 \subsection{Block 3: Triangluar Wave generator}
-\label{sec:org85c5923}
+\label{sec:org4d16424}
 
 We basically extend block 2 with integrator circuit. Which would give triangular wave as intended. Here, this integrator circuit differs from basic circuit that \(100k\Omega\) as feedback resister is joined. Which would give better stability and accurate output. Circuit diagram is shown below,
 
 
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.7 \textwidth]{imgs/triang.png}
-\caption{\label{fig:org66d79b1}integrator circuit with square wave as input}
+\begin{figure}[H]
+    \centering
+    \label{triang}
+    \includegraphics[width=0.5\textwidth]{imgs/triang.png}
+    \caption{integrator circuit with square wave as input}
 \end{figure}
+
 
 
 Here, \(R_{4}\) have to be \(10R_{3}\). Frequency is give by same relation as block 2.
 
 
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.95 \textwidth]{imgs/triangreal.png}
-\caption{\label{fig:orgc55386a}block 3: triangluar wave generator}
+\begin{figure}[H]
+    \centering
+    \label{tringularreal}
+    \includegraphics[width=0.95\textwidth]{imgs/triangreal.png}
+    \caption{block 3: triangluar wave generator}
 \end{figure}
 
 
 
-
 \section{connection and switching}
-\label{sec:org3609da7}
+\label{sec:orgf28586f}
 
-For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure.
+For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure below.
+
+When switch is \textbf{\textbf{ON}} (means pushed) it will connect 1 terminals with common and complete the circuit. When switch is \textbf{\textbf{OFF}} (pulled condition), the circuit will open and we will not get connection.
+
+\begin{figure}[H]
+    \centering
+    \label{switchon}
+    \includegraphics[width=0.5\textwidth]{imgs/switchon.png}
+    \caption{switch on state for two pole push button switch}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \label{switchoff}
+    \includegraphics[width=0.5\textwidth]{imgs/switchoff.png}
+    \caption{switch off state for two pole push button switch}
+\end{figure}
+
+The +Vcc in common (upper common) is completely independent of Output terminal common (lower common). Which means switch can completely operate two tasks, which is when on it power the block and take output and give to CRO. You can see this is on block diagram in figure 1 \label{orgd565ec9}.
+
+
+
+\section{Output}
+\label{sec:org88635c1}
+
+The output of whole circuit which is single output after connecting switches, will goes to CRO (cathode ray oscilloscope), which will measure gain and show signal form.
+
+Theoritically, it shoult give exact signal but errors from ICs, connections, components are reasonable. We are tried our best to minimize it with simulation in Pspice simulations. But real life and simulations are distanced things. We are expected to see some divergence.
+
+\section{Pspice simulations}
+\label{sec:org615f60d}
+
+We did Pspice simulation In \href{https://www.falstad.com/circuit/}{This website} by Paul Falsted. Here are simlations result from different blocks. This outputs are for Potentiometer valued at \(3.3k\Omega\). We gain peek to peek voltage value at \(2.8917V\) for sine wave and \(2.11V\) and \(2.2\) in square wave and triangular wave respectively. This figures are from matplotlib, since we could not get from falsted. We got accurate p-p voltages.
+
+\begin{figure}[H]
+    \centering
+    \label{outputs}
+    \includegraphics[width=0.8\textwidth]{imgs/outputs.png}
+    \caption{Outputs}
+\end{figure}
+
+
+\bibliography{documentation}
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plain}
 \end{document}
