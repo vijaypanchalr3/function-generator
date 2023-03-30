@@ -1,6 +1,6 @@
 #+title: Frequency Generator using OpAmp
 #+author:  Ved Rudani
-#+author:  Vijay Panchal\
+#+author:  Vijay Panchal
 
 
 
@@ -70,7 +70,7 @@ As told in introduction each circuit is in their blocks. First block for sine wa
 
 #+CAPTION: Block diagram of our function generator
 #+NAME: block
-#+ATTR_LATEX:  :width .8\textwidth
+#+ATTR_LATEX:  :width .95\textwidth
 [[file:imgs/blocks.png]]
 
 
@@ -81,7 +81,7 @@ In first block, we have basic circuit of wein bridge. You can see in figure 1. I
 
 #+CAPTION: Wein bridge circuit
 #+NAME: sine
-#+ATTR_LATEX:  :width .8\textwidth
+#+ATTR_LATEX:  :width .7\textwidth
 [[file:imgs/sine.png]]
 
 Here, frequency is given by, 
@@ -103,7 +103,7 @@ So, we get relation $R_{F}=R_{1}$
 
 #+CAPTION: Our block 1, which consinst of IC741CP
 #+NAME: sinereal
-#+ATTR_LATEX:  :width 0.8 \textwidth
+#+ATTR_LATEX:  :width 0.95 \textwidth
 [[file:imgs/sinereal.png]]
 
 
@@ -130,7 +130,7 @@ As square wave generator we have basic astable multivibrator. This circuit works
 
 #+CAPTION: astable multivibrator circuit
 #+NAME: astable
-#+ATTR_LATEX:  :width 0.8 \textwidth
+#+ATTR_LATEX:  :width 0.7 \textwidth
 [[file:imgs/square.png]]
 
 Here, frequency would be, 
@@ -149,7 +149,7 @@ If, we take $R_{2}=1.16R_{1}$ then,
 
 #+CAPTION: second block: square wave generator
 #+NAME: astablereal
-#+ATTR_LATEX:  :width 0.8 \textwidth
+#+ATTR_LATEX:  :width 0.95 \textwidth
 [[file:imgs/squarereal.png]]
 
 Here, we took $R_{1} = 10k\Omega$ and $R_{2} = 11.6k\Omega$ such that $\frac{R_{2}}{R_{1}}=1.16$. Also, you can see that we employed $100k\Omega$ in input terminals for accurate and reliable signal.
@@ -175,7 +175,7 @@ We basically extend block 2 with integrator circuit. Which would give triangular
 
 #+CAPTION: integrator circuit with square wave as input
 #+NAME: tringular
-#+ATTR_LATEX:  :width 0.8 \textwidth
+#+ATTR_LATEX:  :width 0.7 \textwidth
 [[file:imgs/triang.png]]
 
 
@@ -185,7 +185,7 @@ Here, $R_{4}$ have to be $10R_{3}$. Frequency is give by same relation as block 
 
 #+CAPTION: block 3: triangluar wave generator
 #+NAME: tringularreal
-#+ATTR_LATEX:  :width 0.8 \textwidth
+#+ATTR_LATEX:  :width 0.95 \textwidth
 [[file:imgs/triangreal.png]]
 
 
@@ -193,4 +193,24 @@ Here, $R_{4}$ have to be $10R_{3}$. Frequency is give by same relation as block 
 
 * connection and switching
 
-For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure.
+For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure below.
+
+When switch is **ON** (means pushed) it will connect 1 terminals with common and complete the circuit. When switch is **OFF** (pulled condition), the circuit will open and we will not get connection.
+
+The +Vcc in common (upper common) is completely independent of Output terminal common (lower common). Which means switch can completely operate two tasks, which is when on it power the block and take output and give to CRO. You can see this is on block diagram in figure 1 <<block>>.
+
+ 
+
+* Output
+
+The output of whole circuit which is single output after connecting switches, will goes to CRO (cathode ray oscilloscope), which will measure gain and show signal form.
+
+Theoritically, it shoult give exact signal but errors from ICs, connections, components are reasonable. We are tried our best to minimize it with simulation in Pspice simulations. But real life and simulations are distanced things. We are expected to see some divergence.
+
+* Pspice simulations
+
+We did Pspice simulation In [[eww:https://www.falstad.com/circuit/][This website]] by Paul Falsted. Here are simlations result from different blocks.
+
+
+** Sine wave signals
+
