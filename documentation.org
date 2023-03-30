@@ -67,9 +67,12 @@ Now, each circuit ( this wave form generator) has different block, basically we 
 
 As told in introduction each circuit is in their blocks. First block for sine wave which is nothing but wien bridge circuit, second is sqaure which is astable multivibrator, third for triangular wave which integrator attached to second block (square wave block).
 
------  
-**figure of blocks**
------
+
+#+CAPTION: Block diagram of our function generator
+#+NAME: block
+#+ATTR_LATEX:  :width .8\textwidth
+[[file:imgs/blocks.png]]
+
 
 ** Block 1: Sine wave generator
 
@@ -77,9 +80,9 @@ As told in introduction each circuit is in their blocks. First block for sine wa
 In first block, we have basic circuit of wein bridge. You can see in figure 1. In center we have OpAmp (IC LM741). This is amplifier with RC component attached with input and output. Here, at one end there is RC parallel component and at other end series RC component. 
 
 #+CAPTION: Wein bridge circuit
-#+NAME: wein bridge
+#+NAME: sine
 #+ATTR_LATEX:  :width .8\textwidth
-[[./imgs/astable.png]]
+[[file:imgs/sine.png]]
 
 Here, frequency is given by, 
 
@@ -99,9 +102,9 @@ So, we get relation $R_{F}=R_{1}$
 
 
 #+CAPTION: Our block 1, which consinst of IC741CP
-#+NAME: astablereal
+#+NAME: sinereal
 #+ATTR_LATEX:  :width 0.8 \textwidth
-[[file:imgs/astablereal.png]]
+[[file:imgs/sinereal.png]]
 
 
 Here, you can see our block circuit, at the end we attached two zener diode for regulation to the output. As you can see OpAmp in IC LM741 package. Power supply given from  4 and 7 to 12V and -12V. We chose $R_{1}=12k\Omega$. By relation of $R_{1}$ and $R_{F}$, we got $R_{F}=24k\Omega$.
@@ -125,9 +128,10 @@ So, frequency range would be $159 hz$ to $159k hz$
 
 As square wave generator we have basic astable multivibrator. This circuit works on scenario where output will have to stable state and it will swing between them, hence the name. When circuit is $+V_{sat}$, we will have high signal output and when circuit is $-V_{sat}$, we will have low signal output. So, we will have square wave as desired. The circuit for astable multivibrator is shown below.
 
------
-**astable multivibrator**
------
+#+CAPTION: astable multivibrator circuit
+#+NAME: astable
+#+ATTR_LATEX:  :width 0.8 \textwidth
+[[file:imgs/square.png]]
 
 Here, frequency would be, 
 
@@ -143,9 +147,10 @@ If, we take $R_{2}=1.16R_{1}$ then,
   f =\frac{1}{2RC}
 \end{equation}
 
------
-**our block is like this**
------
+#+CAPTION: second block: square wave generator
+#+NAME: astablereal
+#+ATTR_LATEX:  :width 0.8 \textwidth
+[[file:imgs/squarereal.png]]
 
 Here, we took $R_{1} = 10k\Omega$ and $R_{2} = 11.6k\Omega$ such that $\frac{R_{2}}{R_{1}}=1.16$. Also, you can see that we employed $100k\Omega$ in input terminals for accurate and reliable signal.
 
@@ -166,17 +171,26 @@ Frequency range would be of (for constant capacitance at $50nF$),
 
 We basically extend block 2 with integrator circuit. Which would give triangular wave as intended. Here, this integrator circuit differs from basic circuit that $100k\Omega$ as feedback resister is joined. Which would give better stability and accurate output. Circuit diagram is shown below,
 
------
-**triangle wave generator**
------
+
+
+#+CAPTION: integrator circuit with square wave as input
+#+NAME: tringular
+#+ATTR_LATEX:  :width 0.8 \textwidth
+[[file:imgs/triang.png]]
+
 
 Here, $R_{4}$ have to be $10R_{3}$. Frequency is give by same relation as block 2.
 
-----
-**our block**
-----
+
+
+#+CAPTION: block 3: triangluar wave generator
+#+NAME: tringularreal
+#+ATTR_LATEX:  :width 0.8 \textwidth
+[[file:imgs/triangreal.png]]
 
 
 
 
 * connection and switching
+
+For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure.
