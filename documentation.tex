@@ -1,4 +1,4 @@
-% Created 2023-03-28 Tue 18:18
+% Created 2023-03-30 Thu 11:11
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
     \usepackage{blindtext}
@@ -93,7 +93,7 @@
 
 
 \section{Introduction}
-\label{sec:orgccb03dd}
+\label{sec:org7cc55d9}
 Function generator is circuit which generates periodic function with predictable frequencies with respect to time. Here, we will study only mono frequency generator but it can also generate superposed functions. Signals from Function generator comes in many forms but mostly it is either sinusoidal or square wave. We will generate sinusoidal, square and triangle wave as output. 
 
 We used basic circuits with few modification as our need. With use of IC LM741 we used OpAmp in our circuit. 
@@ -103,7 +103,7 @@ For Sinusoidal wave we used Wein Bridge circuit, which is easy to understand and
 Now, each circuit ( this wave form generator) has different block, basically we divided whole circuit in there block. Main work for us is to combine all of this. We wandered across CMOS families, BJTs but finally we sattled into physical swith which is coupled for power transmission and also for output change.
 
 \section{Blocks}
-\label{sec:org7e6afdd}
+\label{sec:orgefd5cff}
 
 
 As told in introduction each circuit is in their blocks. First block for sine wave which is nothing but wien bridge circuit, second is sqaure which is astable multivibrator, third for triangular wave which integrator attached to second block (square wave block).
@@ -114,34 +114,39 @@ As told in introduction each circuit is in their blocks. First block for sine wa
 \noindent\rule{\textwidth}{0.5pt}
 
 \subsection{Block 1: Sine wave generator}
-\label{sec:org112bf96}
+\label{sec:org53a1277}
 
 
 In first block, we have basic circuit of wein bridge. You can see in figure 1. In center we have OpAmp (IC LM741). This is amplifier with RC component attached with input and output. Here, at one end there is RC parallel component and at other end series RC component. 
 
-\textbf{\textbf{figure of wein bridge}}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{./imgs/astable.png}
+\caption{\label{fig:org54c7d59}Wein bridge circuit}
+\end{figure}
 
 Here, frequency is given by, 
 
 \begin{equation}
-\label{eq:org056e263}
+\label{eq:org72a0a60}
   f =\frac{1}{2 \pi RC}
 \end{equation}
 
 For sustaing oscilation gain must be 3 and for non inverting amplifier gain, 
 
 \begin{equation}
-\label{eq:org4c38dd8}
+\label{eq:org73b45f1}
   A = 1+\frac{R_{F}}{R_{1}} = 3
 \end{equation}
 
 So, we get relation \(R_{F}=R_{1}\)
 
 
-\noindent\rule{\textwidth}{0.5pt}
-\textbf{\textbf{block circuit with all items}}
-
-\noindent\rule{\textwidth}{0.5pt}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.8 \textwidth]{imgs/astablereal.png}
+\caption{\label{fig:org5dd18e5}Our block 1, which consinst of IC741CP}
+\end{figure}
 
 
 Here, you can see our block circuit, at the end we attached two zener diode for regulation to the output. As you can see OpAmp in IC LM741 package. Power supply given from  4 and 7 to 12V and -12V. We chose \(R_{1}=12k\Omega\). By relation of \(R_{1}\) and \(R_{F}\), we got \(R_{F}=24k\Omega\).
@@ -149,12 +154,12 @@ Here, you can see our block circuit, at the end we attached two zener diode for 
 For frequency range we used Potential with max range of \(100k\Omega\). So, lowest and maximum frequency whould be (with constant capacitance at \(50nF\)),
 
 \begin{equation*}
-\label{eq:orgc938ca7}
+\label{eq:org0cec55f}
   f_{min} = \frac{1}{2\pi\times100k\times 10n} \approx 159 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:org9307fe2}
+\label{eq:org798bb60}
   f_{max} = \frac{1}{2\pi\times100\times 10n} \approx 159k hz
 \end{equation*}
 
@@ -162,7 +167,7 @@ So, frequency range would be \(159 hz\) to \(159k hz\)
 
 
 \subsection{Block 2: Square wave generator}
-\label{sec:org81d29d1}
+\label{sec:org6828c5d}
 
 As square wave generator we have basic astable multivibrator. This circuit works on scenario where output will have to stable state and it will swing between them, hence the name. When circuit is \(+V_{sat}\), we will have high signal output and when circuit is \(-V_{sat}\), we will have low signal output. So, we will have square wave as desired. The circuit for astable multivibrator is shown below.
 
@@ -174,14 +179,14 @@ As square wave generator we have basic astable multivibrator. This circuit works
 Here, frequency would be, 
 
 \begin{equation}
-\label{eq:orgd806db9}
+\label{eq:org6f5ac13}
   f =\frac{1}{2 RC ln(\frac{2R_{1}+R_{2}}{R_{2}})}
 \end{equation}
 
 If, we take \(R_{2}=1.16R_{1}\) then, 
 
 \begin{equation}
-\label{eq:orgcfc7115}
+\label{eq:org9325e0a}
   f =\frac{1}{2RC}
 \end{equation}
 
@@ -195,18 +200,18 @@ Here, we took \(R_{1} = 10k\Omega\) and \(R_{2} = 11.6k\Omega\) such that \(\fra
 Frequency range would be of (for constant capacitance at \(50nF\)),
 
 \begin{equation*}
-\label{eq:org3e66f58}
+\label{eq:org075bab2}
   f_{min} =\frac{1}{2\times 100k\times 50n} \approx 100 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:orge1fa0a5}
+\label{eq:org683bb33}
   f_{max} =\frac{1}{2\times 100 \times 50n} \approx 100 khz
 \end{equation*}
 
 
 \subsection{Block 3: Triangluar Wave generator}
-\label{sec:orge83d86a}
+\label{sec:org350001b}
 
 We basically extend block 2 with integrator circuit. Which would give triangular wave as intended. Here, this integrator circuit differs from basic circuit that \(100k\Omega\) as feedback resister is joined. Which would give better stability and accurate output. Circuit diagram is shown below,
 
@@ -225,5 +230,5 @@ Here, \(R_{4}\) have to be \(10R_{3}\). Frequency is give by same relation as bl
 
 
 \section{connection and switching}
-\label{sec:org310e328}
+\label{sec:org0751e9f}
 \end{document}
