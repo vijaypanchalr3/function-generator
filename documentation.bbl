@@ -1,3 +1,30 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Falsted}
+Paul Falsted.
+\newblock Online circuit simulator.
+\newblock \url{https://www.falstad.com/circuit/}.
+\newblock Accessed: 2023-03-30.
+
+\bibitem{gayakwad2012op}
+Ramakant~A Gayakwad.
+\newblock Op-amps and linear integrated circuit.
+\newblock 2012.
+
+\bibitem{harris2020array}
+Charles~R. Harris, K.~Jarrod Millman, St{\'{e}}fan~J. van~der Walt, Ralf
+  Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor,
+  Sebastian Berg, Nathaniel~J. Smith, Robert Kern, Matti Picus, Stephan Hoyer,
+  Marten~H. van Kerkwijk, Matthew Brett, Allan Haldane, Jaime~Fern{\'{a}}ndez
+  del R{\'{i}}o, Mark Wiebe, Pearu Peterson, Pierre G{\'{e}}rard-Marchant,
+  Kevin Sheppard, Tyler Reddy, Warren Weckesser, Hameer Abbasi, Christoph
+  Gohlke, and Travis~E. Oliphant.
+\newblock Array programming with {NumPy}.
+\newblock {\em Nature}, 585(7825):357--362, September 2020.
+
+\bibitem{Hunter:2007}
+J.~D. Hunter.
+\newblock Matplotlib: A 2d graphics environment.
+\newblock {\em Computing in Science \& Engineering}, 9(3):90--95, 2007.
 
 \end{thebibliography}
