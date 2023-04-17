@@ -45,450 +45,279 @@
      inkscape:window-height="741"
      id="namedview688"
      showgrid="false"
-     inkscape:zoom="0.069923138"
-     inkscape:cx="-471.51763"
-     inkscape:cy="3302.3065"
+     inkscape:zoom="0.049443125"
+     inkscape:cx="-138.64243"
+     inkscape:cy="2153.9524"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg686" />
+     inkscape:current-layer="svg686"
+     inkscape:document-rotation="0"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-object-midpoints="true" />
   <rect
      style="fill:#ffffff;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
      id="rect1899"
      width="3763.936"
      height="3083.426"
      x="-484.50189"
-     y="-77.41317" />
+     y="-77.41317"
+     sodipodi:insensitive="true" />
   <g
      fill="none"
      points="6.817,13.567,7.546,13.546,7.546,14.4,6.859,14.359"
      id="g80"
      transform="rotate(180,590.10944,657.65941)" />
   <g
-     id="g1895"
-     transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
-    <g
-       partID="102050"
-       id="g60">
-      <g
-         transform="translate(72.0005,100.373)"
-         id="g58">
-        <g
-           gorn="0.0"
-           id="schematic">
-          <rect
-             height="35.099998"
-             fill="#ffffff"
-             x="14.85"
-             stroke-width="0.9"
-             y="0.44999999"
-             width="27.9"
-             stroke-linecap="round"
-             class="interior rect"
-             stroke="#000000"
-             id="rect2" />
-          <line
-             fill="none"
-             x2="57.249901"
-             y1="7.1999998"
-             stroke-width="0.699999"
-             y2="7.1999998"
-             stroke-linecap="round"
-             class="pin"
-             x1="42.849899"
-             stroke="#787878"
-             gorn="0.0.1"
-             id="connector7pin" />
-          <text
-             fill="#8c8c8c"
-             x="50.0499"
-             stroke-width="0"
-             text-anchor="middle"
-             y="6.1499901"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text5">8</text>
-          <text
-             fill="#8c8c8c"
-             x="41.449902"
-             stroke-width="0"
-             text-anchor="end"
-             y="7.8999901"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text7">pin8</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="57.2499"
-             stroke-width="0"
-             y="6.85001"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.4"
-             id="connector7terminal" />
-          <line
-             fill="none"
-             x2="57.249901"
-             y1="14.4"
-             stroke-width="0.699999"
-             y2="14.4"
-             stroke-linecap="round"
-             class="pin"
-             x1="42.849899"
-             stroke="#787878"
-             gorn="0.0.5"
-             id="connector6pin" />
-          <text
-             fill="#8c8c8c"
-             x="50.0499"
-             stroke-width="0"
-             text-anchor="middle"
-             y="13.35"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text11">7</text>
-          <text
-             fill="#8c8c8c"
-             x="41.449902"
-             stroke-width="0"
-             text-anchor="end"
-             y="15.1"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text13">pin7</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="57.2499"
-             stroke-width="0"
-             y="14.05"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.8"
-             id="connector6terminal" />
-          <line
-             fill="none"
-             x2="57.249901"
-             y1="21.6"
-             stroke-width="0.699999"
-             y2="21.6"
-             stroke-linecap="round"
-             class="pin"
-             x1="42.849899"
-             stroke="#787878"
-             gorn="0.0.9"
-             id="connector5pin" />
-          <text
-             fill="#8c8c8c"
-             x="50.0499"
-             stroke-width="0"
-             text-anchor="middle"
-             y="20.549999"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text17">6</text>
-          <text
-             fill="#8c8c8c"
-             x="41.449902"
-             stroke-width="0"
-             text-anchor="end"
-             y="22.299999"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text19">pin6</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="57.2499"
-             stroke-width="0"
-             y="21.25"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.12"
-             id="connector5terminal" />
-          <line
-             fill="none"
-             x2="57.249901"
-             y1="28.799999"
-             stroke-width="0.699999"
-             y2="28.799999"
-             stroke-linecap="round"
-             class="pin"
-             x1="42.849899"
-             stroke="#787878"
-             gorn="0.0.13"
-             id="connector4pin" />
-          <text
-             fill="#8c8c8c"
-             x="50.0499"
-             stroke-width="0"
-             text-anchor="middle"
-             y="27.75"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text23">5</text>
-          <text
-             fill="#8c8c8c"
-             x="41.449902"
-             stroke-width="0"
-             text-anchor="end"
-             y="29.499901"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text25">pin5</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="57.2499"
-             stroke-width="0"
-             y="28.4499"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.16"
-             id="connector4terminal" />
-          <line
-             fill="none"
-             x2="14.75"
-             y1="7.1999998"
-             stroke-width="0.699999"
-             y2="7.1999998"
-             stroke-linecap="round"
-             class="pin"
-             x1="0.34999901"
-             stroke="#787878"
-             gorn="0.0.17"
-             id="connector0pin" />
-          <text
-             fill="#8c8c8c"
-             x="7.5499902"
-             stroke-width="0"
-             text-anchor="middle"
-             y="6.1499901"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text29">1</text>
-          <text
-             fill="#8c8c8c"
-             x="16.15"
-             stroke-width="0"
-             text-anchor="start"
-             y="7.8999901"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text31">pin1</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="-0.349999"
-             stroke-width="0"
-             y="6.85001"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.20"
-             id="connector0terminal" />
-          <line
-             fill="none"
-             x2="14.75"
-             y1="14.4"
-             stroke-width="0.699999"
-             y2="14.4"
-             stroke-linecap="round"
-             class="pin"
-             x1="0.34999901"
-             stroke="#787878"
-             gorn="0.0.21"
-             id="connector1pin" />
-          <text
-             fill="#8c8c8c"
-             x="7.5499902"
-             stroke-width="0"
-             text-anchor="middle"
-             y="13.35"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text35">2</text>
-          <text
-             fill="#8c8c8c"
-             x="16.15"
-             stroke-width="0"
-             text-anchor="start"
-             y="15.1"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text37">pin2</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="-0.349999"
-             stroke-width="0"
-             y="14.05"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.24"
-             id="connector1terminal" />
-          <line
-             fill="none"
-             x2="14.75"
-             y1="21.6"
-             stroke-width="0.699999"
-             y2="21.6"
-             stroke-linecap="round"
-             class="pin"
-             x1="0.34999901"
-             stroke="#787878"
-             gorn="0.0.25"
-             id="connector2pin" />
-          <text
-             fill="#8c8c8c"
-             x="7.5499902"
-             stroke-width="0"
-             text-anchor="middle"
-             y="20.549999"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text41">3</text>
-          <text
-             fill="#8c8c8c"
-             x="16.15"
-             stroke-width="0"
-             text-anchor="start"
-             y="22.299999"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text43">pin3</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="-0.349999"
-             stroke-width="0"
-             y="21.25"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.28"
-             id="connector2terminal" />
-          <line
-             fill="none"
-             x2="14.75"
-             y1="28.799999"
-             stroke-width="0.699999"
-             y2="28.799999"
-             stroke-linecap="round"
-             class="pin"
-             x1="0.34999901"
-             stroke="#787878"
-             gorn="0.0.29"
-             id="connector3pin" />
-          <text
-             fill="#8c8c8c"
-             x="7.5499902"
-             stroke-width="0"
-             text-anchor="middle"
-             y="27.75"
-             font-size="2.5px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text47">4</text>
-          <text
-             fill="#8c8c8c"
-             x="16.15"
-             stroke-width="0"
-             text-anchor="start"
-             y="29.499901"
-             font-size="3.49999px"
-             class="text"
-             stroke="none"
-             font-family="'Droid Sans'"
-             id="text49">pin4</text>
-          <g
-             height="0.699999"
-             fill="none"
-             x="-0.349999"
-             stroke-width="0"
-             y="28.4499"
-             width="0.699999"
-             class="terminal"
-             stroke="none"
-             gorn="0.0.32"
-             id="connector3terminal" />
-          <text
-             fill="#000000"
-             x="29.250099"
-             stroke-width="0"
-             text-anchor="middle"
-             y="11.6498"
-             font-size="4.25001px"
-             class="text"
-             stroke="none"
-             gorn="0.0.33"
-             font-family="'Droid Sans'"
-             id="label">DIP</text>
-          <text
-             fill="#000000"
-             x="29.250099"
-             stroke-width="0"
-             text-anchor="middle"
-             y="16.1833"
-             font-size="4.25001px"
-             class="text"
-             stroke="none"
-             gorn="0.0.34"
-             font-family="'Droid Sans'"
-             id="text53">8</text>
-          <text
-             fill="#000000"
-             x="29.250099"
-             stroke-width="0"
-             text-anchor="middle"
-             y="20.7167"
-             font-size="4.25001px"
-             class="text"
-             stroke="none"
-             gorn="0.0.35"
-             font-family="'Droid Sans'"
-             id="text55">pins</text>
-        </g>
-      </g>
-    </g>
+     fill="none"
+     points="1.05,4.319,0,4.304,0,3.647,1.05,3.632"
+     id="g384"
+     transform="matrix(0,-9.2745727,9.2745727,0,1758.8183,1645.3034)" />
+  <g
+     fill="none"
+     points="20.581,4.272,21.6,4.288,21.6,3.616,20.55,3.601"
+     id="g392"
+     transform="matrix(0,-9.2745727,9.2745727,0,1758.8183,1645.3034)" />
+  <g
+     id="g6479">
+    <line
+       fill="none"
+       x2="1458.2701"
+       y1="982.40332"
+       stroke-width="6.49219"
+       y2="982.40332"
+       stroke-linecap="round"
+       class="pin"
+       x1="1324.7163"
+       stroke="#787878"
+       gorn="0.0.1"
+       id="connector7pin" />
+    <text
+       fill="#8c8c8c"
+       x="1347.6108"
+       stroke-width="0"
+       text-anchor="middle"
+       y="972.66492"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text5"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">8</text>
+    <line
+       fill="none"
+       x2="1458.2701"
+       y1="1049.1803"
+       stroke-width="6.49219"
+       y2="1049.1803"
+       stroke-linecap="round"
+       class="pin"
+       x1="1324.7163"
+       stroke="#787878"
+       gorn="0.0.5"
+       id="connector6pin" />
+    <text
+       fill="#8c8c8c"
+       x="1347.6108"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1039.4419"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text11"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">7</text>
+    <line
+       fill="none"
+       x2="1458.2701"
+       y1="1115.9572"
+       stroke-width="6.49219"
+       y2="1115.9572"
+       stroke-linecap="round"
+       class="pin"
+       x1="1324.7163"
+       stroke="#787878"
+       gorn="0.0.9"
+       id="connector5pin" />
+    <text
+       fill="#8c8c8c"
+       x="1347.6108"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1106.2189"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text17"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">6</text>
+    <line
+       fill="none"
+       x2="1458.2701"
+       y1="1182.7341"
+       stroke-width="6.49219"
+       y2="1182.7341"
+       stroke-linecap="round"
+       class="pin"
+       x1="1324.7163"
+       stroke="#787878"
+       gorn="0.0.13"
+       id="connector4pin" />
+    <text
+       fill="#8c8c8c"
+       x="1347.6108"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1172.9958"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text23"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">5</text>
+    <line
+       fill="none"
+       x2="1064.1018"
+       y1="982.40332"
+       stroke-width="6.49219"
+       y2="982.40332"
+       stroke-linecap="round"
+       class="pin"
+       x1="930.54791"
+       stroke="#787878"
+       gorn="0.0.17"
+       id="connector0pin" />
+    <text
+       fill="#8c8c8c"
+       x="1039.3038"
+       stroke-width="0"
+       text-anchor="middle"
+       y="972.66492"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text29"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">1</text>
+    <line
+       fill="none"
+       x2="1064.1018"
+       y1="1049.1803"
+       stroke-width="6.49219"
+       y2="1049.1803"
+       stroke-linecap="round"
+       class="pin"
+       x1="930.54791"
+       stroke="#787878"
+       gorn="0.0.21"
+       id="connector1pin" />
+    <text
+       fill="#8c8c8c"
+       x="1039.3038"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1039.4419"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text35"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">2</text>
+    <line
+       fill="none"
+       x2="1064.1018"
+       y1="1115.9572"
+       stroke-width="6.49219"
+       y2="1115.9572"
+       stroke-linecap="round"
+       class="pin"
+       x1="930.54791"
+       stroke="#787878"
+       gorn="0.0.25"
+       id="connector2pin" />
+    <text
+       fill="#8c8c8c"
+       x="1039.3038"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1106.2189"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text41"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">3</text>
+    <line
+       fill="none"
+       x2="1064.1018"
+       y1="1182.7341"
+       stroke-width="6.49219"
+       y2="1182.7341"
+       stroke-linecap="round"
+       class="pin"
+       x1="930.54791"
+       stroke="#787878"
+       gorn="0.0.29"
+       id="connector3pin" />
+    <text
+       fill="#8c8c8c"
+       x="1039.3038"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1172.9958"
+       font-size="23.1864px"
+       class="text"
+       stroke="none"
+       font-family="'Droid Sans'"
+       id="text47"
+       style="fill:#00663b;fill-opacity:1;-inkscape-font-specification:'Droid Sans, Normal';font-family:'Droid Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:25.99998264px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;">4</text>
+    <text
+       fill="#000000"
+       x="1198.584"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1023.6733"
+       font-size="39.417px"
+       class="text"
+       stroke="none"
+       gorn="0.0.33"
+       font-family="'Droid Sans'"
+       id="label"
+       style="fill:#00663b;fill-opacity:1;">DIP</text>
+    <text
+       fill="#000000"
+       x="1198.584"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1065.7196"
+       font-size="39.417px"
+       class="text"
+       stroke="none"
+       gorn="0.0.34"
+       font-family="'Droid Sans'"
+       id="text53"
+       style="fill:#00663b;fill-opacity:1;">8</text>
+    <text
+       fill="#000000"
+       x="1198.584"
+       stroke-width="0"
+       text-anchor="middle"
+       y="1107.7649"
+       font-size="39.417px"
+       class="text"
+       stroke="none"
+       gorn="0.0.35"
+       font-family="'Droid Sans'"
+       id="text55"
+       style="fill:#00663b;fill-opacity:1;">pins</text>
     <g
        partID="102100"
-       id="g76">
+       id="g76"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(93.619)"
          id="g74">
@@ -530,23 +359,23 @@
     <line
        fill="none"
        stroke-miterlimit="10"
-       x2="100.782"
-       y1="251.56599"
-       stroke-width="0.75"
-       y2="244.366"
+       x2="1194.2379"
+       y1="2317.8767"
+       stroke-width="6.95593"
+       y2="2251.0999"
        stroke-linecap="round"
        stroke="#787878"
-       x1="100.782"
+       x1="1194.2379"
        id="line78" />
     <path
        fill="none"
-       stroke-width="0.9"
+       stroke-width="8.34712"
        stroke-linecap="round"
        stroke="#000000"
-       d="m 107.532,251.782 h -13.5"
+       d="M 1256.8413,2319.8802 H 1131.6346"
        id="path82" />
     <g
-       transform="translate(95.875026,256.69738)"
+       transform="matrix(9.2745727,0,0,9.2745727,1148.7278,2365.4682)"
        id="g86">
       <text
          font-size="4.4991px"
@@ -555,7 +384,8 @@
     </g>
     <g
        partID="102740"
-       id="g130">
+       id="g130"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(86.0504,147.677)"
          id="g128">
@@ -720,7 +550,8 @@
     </g>
     <g
        partID="102790"
-       id="g168">
+       id="g168"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(46.2966,157.623)"
          id="g166">
@@ -889,7 +720,8 @@
     </g>
     <g
        partID="102560"
-       id="g204">
+       id="g204"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(28.4504,104.477)"
          id="g202">
@@ -1054,7 +886,8 @@
     </g>
     <g
        partID="102530"
-       id="g240">
+       id="g240"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(42.8504,118.877)"
          id="g238">
@@ -1219,7 +1052,8 @@
     </g>
     <g
        partID="102760"
-       id="g282">
+       id="g282"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(23.0404,121.623)"
          id="g280">
@@ -1364,7 +1198,8 @@
     </g>
     <g
        partID="103600"
-       id="g320">
+       id="g320"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(121.889,42.7745)"
          id="g318">
@@ -1381,7 +1216,7 @@
                stroke="#000000"
                id="polyline284" />
             <polygon
-               points="-0.022,15.188 5.819,16.8 4.23,19.505 "
+               points="4.23,19.505 -0.022,15.188 5.819,16.8 "
                id="polygon286" />
             <polyline
                fill="none"
@@ -1463,297 +1298,120 @@
         </g>
       </g>
     </g>
+    <line
+       fill="none"
+       x2="1795.2581"
+       y1="1247.7117"
+       stroke-width="6.95593"
+       y2="1314.4794"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1761.8696"
+       id="line322"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1828.6466"
+       y1="1314.4794"
+       stroke-width="6.95593"
+       y2="1247.7117"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1795.2581"
+       id="line324"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1828.6466"
+       y1="1314.4794"
+       stroke-width="6.95593"
+       y2="1327.8254"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1828.6466"
+       id="line332"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1761.8696"
+       y1="1314.4794"
+       stroke-width="6.95593"
+       y2="1301.124"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1761.8696"
+       id="line334"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1795.2581"
+       y1="1190.8492"
+       stroke-width="6.95593"
+       y2="1247.1924"
+       stroke-linecap="round"
+       stroke="#787878"
+       x1="1795.2581"
+       id="line340" />
+    <text
+       fill="#8c8c8c"
+       font-size="23.1864px"
+       font-family="DroidSans"
+       id="text344"
+       transform="rotate(90)"
+       x="1196.6403"
+       y="-1805.0038"
+       style="stroke-width:9.27457">2</text>
+    <line
+       fill="none"
+       x2="1795.5457"
+       y1="1642.0573"
+       stroke-width="6.95593"
+       y2="1585.7142"
+       stroke-linecap="round"
+       stroke="#787878"
+       x1="1795.5457"
+       id="line382" />
+    <text
+       fill="#8c8c8c"
+       font-size="23.1864px"
+       font-family="DroidSans"
+       id="text352"
+       transform="rotate(90)"
+       x="1367.9073"
+       y="-1805.0038"
+       style="stroke-width:9.27457">1</text>
     <g
-       partID="104470"
-       id="g362">
-      <g
-         transform="translate(169.545,129.698)"
-         id="g360">
-        <g
-           transform="rotate(90)"
-           id="g358">
-          <g
-             id="g356">
-            <g
-               id="g336">
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="7.5599999"
-                 stroke-width="0.75"
-                 y2="3.96"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="6.4809999"
-                 id="line322" />
-              <line
-                 fill="none"
-                 x2="6.4809999"
-                 y1="3.96"
-                 stroke-width="0.75"
-                 y2="0.36000001"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line324" />
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="3.96"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line326" />
-              <line
-                 fill="none"
-                 x2="6.4809999"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="6.4809999"
-                 id="line328" />
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="3.96"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line330" />
-              <line
-                 fill="none"
-                 x2="15.119"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="0.36000001"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line332" />
-              <line
-                 fill="none"
-                 x2="12.24"
-                 y1="7.5599999"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line334" />
-            </g>
-            <line
-               fill="none"
-               x2="15.425"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#000000"
-               x1="6.467"
-               id="line338" />
-            <line
-               fill="none"
-               x2="6.4250002"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#787878"
-               x1="0.34999999"
-               id="line340" />
-            <g
-               fill="none"
-               points="1.05,4.319,0,4.304,0,3.647,1.05,3.632"
-               id="g342" />
-            <g
-               transform="translate(0.9744,2.9092)"
-               id="g346">
-              <text
-                 fill="#8c8c8c"
-                 font-size="2.5px"
-                 font-family="DroidSans"
-                 id="text344">2</text>
-            </g>
-            <line
-               fill="none"
-               x2="13.675"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#787878"
-               x1="21.25"
-               id="line348" />
-            <g
-               fill="none"
-               points="20.581,4.272,21.6,4.288,21.6,3.616,20.55,3.601"
-               id="g350" />
-            <g
-               transform="translate(19.4407,2.9092)"
-               id="g354">
-              <text
-                 fill="#8c8c8c"
-                 font-size="2.5px"
-                 font-family="DroidSans"
-                 id="text352">1</text>
-            </g>
-          </g>
-        </g>
-      </g>
+       transform="matrix(0,-9.2745727,9.2745727,0,1785.7999,1636.2663)"
+       id="g388">
+      <text
+         fill="#8c8c8c"
+         font-size="2.5px"
+         font-family="DroidSans"
+         id="text386">2</text>
     </g>
+    <line
+       fill="none"
+       x2="1795.5457"
+       y1="1448.2188"
+       stroke-width="6.95593"
+       y2="1518.4736"
+       stroke-linecap="round"
+       stroke="#787878"
+       x1="1795.5457"
+       id="line390" />
     <g
-       partID="104500"
-       id="g404">
-      <g
-         transform="translate(161.656,179.048)"
-         id="g402">
-        <g
-           transform="rotate(-90)"
-           id="g400">
-          <g
-             id="g398">
-            <g
-               id="g378">
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="7.5599999"
-                 stroke-width="0.75"
-                 y2="3.96"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="6.4809999"
-                 id="line364" />
-              <line
-                 fill="none"
-                 x2="6.4809999"
-                 y1="3.96"
-                 stroke-width="0.75"
-                 y2="0.36000001"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line366" />
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="3.96"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line368" />
-              <line
-                 fill="none"
-                 x2="6.4809999"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="6.4809999"
-                 id="line370" />
-              <line
-                 fill="none"
-                 x2="13.68"
-                 y1="3.96"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line372" />
-              <line
-                 fill="none"
-                 x2="15.119"
-                 y1="0.36000001"
-                 stroke-width="0.75"
-                 y2="0.36000001"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line374" />
-              <line
-                 fill="none"
-                 x2="12.24"
-                 y1="7.5599999"
-                 stroke-width="0.75"
-                 y2="7.5599999"
-                 stroke-linecap="round"
-                 stroke="#000000"
-                 x1="13.68"
-                 id="line376" />
-            </g>
-            <line
-               fill="none"
-               x2="15.425"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#000000"
-               x1="6.467"
-               id="line380" />
-            <line
-               fill="none"
-               x2="6.4250002"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#787878"
-               x1="0.34999999"
-               id="line382" />
-            <g
-               fill="none"
-               points="1.05,4.319,0,4.304,0,3.647,1.05,3.632"
-               id="g384" />
-            <g
-               transform="translate(0.9744,2.9092)"
-               id="g388">
-              <text
-                 fill="#8c8c8c"
-                 font-size="2.5px"
-                 font-family="DroidSans"
-                 id="text386">2</text>
-            </g>
-            <line
-               fill="none"
-               x2="13.675"
-               y1="3.96"
-               stroke-width="0.75"
-               y2="3.96"
-               stroke-linecap="round"
-               stroke="#787878"
-               x1="21.25"
-               id="line390" />
-            <g
-               fill="none"
-               points="20.581,4.272,21.6,4.288,21.6,3.616,20.55,3.601"
-               id="g392" />
-            <g
-               transform="translate(19.4407,2.9092)"
-               id="g396">
-              <text
-                 fill="#8c8c8c"
-                 font-size="2.5px"
-                 font-family="DroidSans"
-                 id="text394">1</text>
-            </g>
-          </g>
-        </g>
-      </g>
+       transform="matrix(0,-9.2745727,9.2745727,0,1785.7999,1464.9992)"
+       id="g396">
+      <text
+         fill="#8c8c8c"
+         font-size="2.5px"
+         font-family="DroidSans"
+         id="text394">1</text>
     </g>
     <g
        partID="105150"
-       id="g417">
+       id="g417"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(0,243.897)"
          id="g415">
@@ -1799,7 +1457,8 @@
     </g>
     <g
        partID="106780"
-       id="g431">
+       id="g431"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <g
          transform="translate(224.418,125.577)"
          id="g429">
@@ -1829,7 +1488,7 @@
             <polygon
                fill="#ffffff"
                stroke-width="0.24"
-               points="19.2144,7.08 22.6944,3.6 19.2144,0.12 0.12,0.12 0.12,7.08 "
+               points="19.2144,0.12 0.12,0.12 0.12,7.08 19.2144,7.08 22.6944,3.6 "
                stroke="#000000"
                id="polygon423" />
           </g>
@@ -1839,29 +1498,35 @@
     <g
        partID="106781"
        id="g440"
-       transform="rotate(180,214.01867,122.04265)">
+       transform="matrix(-9.2745727,0,0,-9.2745727,4229.3914,2248.4966)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(224.418,125.577)"
-         id="g438">
+         id="g438"
+         style="fill:#00663b;fill-opacity:1">
         <g
            transform="scale(-1)"
-           id="g436">
+           id="g436"
+           style="fill:#00663b;fill-opacity:1">
           <g
-             id="schematicText">
+             id="schematicText"
+             style="fill:#00663b;fill-opacity:1">
             <text
                fill="#000000"
                x="0.47999999"
                y="5.2800002"
                font-size="4.8px"
                id="text433"
-               font-family="'Droid Sans'">OUTPUT</text>
+               font-family="'Droid Sans'"
+               style="fill:#00663b;fill-opacity:1">OUTPUT</text>
           </g>
         </g>
       </g>
     </g>
     <g
        partID="102670"
-       id="g444">
+       id="g444"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1874,7 +1539,8 @@
     </g>
     <g
        partID="102600"
-       id="g448">
+       id="g448"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1887,7 +1553,8 @@
     </g>
     <g
        partID="102830"
-       id="g452">
+       id="g452"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1900,7 +1567,8 @@
     </g>
     <g
        partID="103210"
-       id="g456">
+       id="g456"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1913,15 +1581,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="43.235298"
-       cy="150.77299"
-       r="1.4400001"
+       cx="660.51685"
+       cy="1383.0648"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle458" />
     <g
        partID="103300"
-       id="g462">
+       id="g462"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1934,7 +1603,8 @@
     </g>
     <g
        partID="103390"
-       id="g466">
+       id="g466"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1947,15 +1617,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="28.800501"
-       cy="107.573"
-       r="1.4400001"
+       cx="526.64026"
+       cy="982.40332"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle468" />
     <g
        partID="103460"
-       id="g472">
+       id="g472"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1968,7 +1639,8 @@
     </g>
     <g
        partID="103530"
-       id="g476">
+       id="g476"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -1981,15 +1653,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="29.0187"
-       cy="186.84599"
-       r="1.4400001"
+       cx="528.664"
+       cy="1717.6265"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle478" />
     <g
        partID="103630"
-       id="g482">
+       id="g482"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2002,15 +1675,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="28.800501"
-       cy="107.573"
-       r="1.4400001"
+       cx="526.64026"
+       cy="982.40332"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle484" />
     <g
        partID="103740"
-       id="g488">
+       id="g488"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2023,7 +1697,8 @@
     </g>
     <g
        partID="105060"
-       id="g492">
+       id="g492"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2036,7 +1711,8 @@
     </g>
     <g
        partID="105950"
-       id="g496">
+       id="g496"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2047,17 +1723,10 @@
          stroke-width="0.699998"
          id="line494" />
     </g>
-    <circle
-       fill="#000000"
-       cx="7.2005"
-       cy="244.373"
-       r="1.4400001"
-       stroke-width="0"
-       stroke="none"
-       id="circle498" />
     <g
        partID="105250"
-       id="g502">
+       id="g502"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2068,17 +1737,10 @@
          stroke-width="0.699998"
          id="line500" />
     </g>
-    <circle
-       fill="#000000"
-       cx="29.6005"
-       cy="222.33701"
-       r="1.4400001"
-       stroke-width="0"
-       stroke="none"
-       id="circle504" />
     <g
        partID="105180"
-       id="g508">
+       id="g508"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2091,7 +1753,8 @@
     </g>
     <g
        partID="105540"
-       id="g512">
+       id="g512"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2104,7 +1767,8 @@
     </g>
     <g
        partID="105320"
-       id="g516">
+       id="g516"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2117,7 +1781,8 @@
     </g>
     <g
        partID="105430"
-       id="g520">
+       id="g520"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2130,7 +1795,8 @@
     </g>
     <g
        partID="105800"
-       id="g524">
+       id="g524"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2143,7 +1809,8 @@
     </g>
     <g
        partID="105650"
-       id="g528">
+       id="g528"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2154,17 +1821,10 @@
          stroke-width="0.699998"
          id="line526" />
     </g>
-    <circle
-       fill="#000000"
-       cx="7.2005"
-       cy="244.373"
-       r="1.4400001"
-       stroke-width="0"
-       stroke="none"
-       id="circle530" />
     <g
        partID="106640"
-       id="g534">
+       id="g534"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2177,7 +1837,8 @@
     </g>
     <g
        partID="106610"
-       id="g538">
+       id="g538"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2190,7 +1851,8 @@
     </g>
     <g
        partID="106580"
-       id="g542">
+       id="g542"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2203,7 +1865,8 @@
     </g>
     <g
        partID="106550"
-       id="g546">
+       id="g546"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2216,7 +1879,8 @@
     </g>
     <g
        partID="106720"
-       id="g550">
+       id="g550"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2229,7 +1893,8 @@
     </g>
     <g
        partID="106750"
-       id="g554">
+       id="g554"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2242,7 +1907,8 @@
     </g>
     <g
        partID="106690"
-       id="g558">
+       id="g558"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2255,7 +1921,8 @@
     </g>
     <g
        partID="106990"
-       id="g562">
+       id="g562"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2268,15 +1935,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="165.601"
-       cy="121.973"
-       r="1.4400001"
+       cx="1795.4065"
+       cy="1115.9572"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle564" />
     <g
        partID="106960"
-       id="g568">
+       id="g568"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2289,7 +1957,8 @@
     </g>
     <g
        partID="107020"
-       id="g572">
+       id="g572"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2302,15 +1971,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="165.601"
-       cy="121.973"
-       r="1.4400001"
+       cx="1795.4065"
+       cy="1115.9572"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle574" />
     <g
        partID="107720"
-       id="g578">
+       id="g578"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2323,7 +1993,8 @@
     </g>
     <g
        partID="107200"
-       id="g582">
+       id="g582"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2336,15 +2007,16 @@
     </g>
     <circle
        fill="#000000"
-       cx="150.774"
-       cy="121.76"
-       r="1.4400001"
+       cx="1657.8923"
+       cy="1113.9817"
+       r="13.355385"
        stroke-width="0"
        stroke="none"
        id="circle584" />
     <g
        partID="107310"
-       id="g588">
+       id="g588"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2357,7 +2029,8 @@
     </g>
     <g
        partID="107090"
-       id="g592">
+       id="g592"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2370,7 +2043,8 @@
     </g>
     <g
        partID="107420"
-       id="g596">
+       id="g596"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2383,7 +2057,8 @@
     </g>
     <g
        partID="107570"
-       id="g600">
+       id="g600"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)">
       <line
          stroke-linecap="round"
          stroke="#404040"
@@ -2396,10 +2071,13 @@
     </g>
     <g
        partID="102050"
-       id="partLabel">
+       id="partLabel"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(92.655,95.2822)"
-         id="g605">
+         id="g605"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2408,20 +2086,25 @@
            font-family="DroidSans"
            id="schematicLabel"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text602">LM741</text>
+             id="text602"
+             style="fill:#00663b;fill-opacity:1">LM741</text>
         </g>
       </g>
     </g>
     <g
        partID="102530"
-       id="g614">
+       id="g614"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(51.268,125.68)"
-         id="g612">
+         id="g612"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2430,20 +2113,25 @@
            font-family="DroidSans"
            id="g610"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text608">100kΩ</text>
+             id="text608"
+             style="fill:#00663b;fill-opacity:1">100kΩ</text>
         </g>
       </g>
     </g>
     <g
        partID="102740"
-       id="g624">
+       id="g624"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(94.468,154.48)"
-         id="g622">
+         id="g622"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2452,24 +2140,30 @@
            font-family="DroidSans"
            id="g620"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text616">10kΩ</text>
+             id="text616"
+             style="fill:#00663b;fill-opacity:1">10kΩ</text>
           <text
              x="0"
              y="8.75"
-             id="text618">R4</text>
+             id="text618"
+             style="fill:#00663b;fill-opacity:1">R4</text>
         </g>
       </g>
     </g>
     <g
        partID="102560"
-       id="g632">
+       id="g632"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(38.087,99.3945)"
-         id="g630">
+         id="g630"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2478,23 +2172,29 @@
            font-family="DroidSans"
            id="g628"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text626">100kΩ</text>
+             id="text626"
+             style="fill:#00663b;fill-opacity:1">100kΩ</text>
         </g>
       </g>
     </g>
     <g
        partID="102790"
-       id="g644">
+       id="g644"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(39.9713,167.072)"
-         id="g642">
+         id="g642"
+         style="fill:#00663b;fill-opacity:1">
         <g
            transform="rotate(90)"
-           id="g640">
+           id="g640"
+           style="fill:#00663b;fill-opacity:1">
           <g
              font-size="5px"
              font-style="normal"
@@ -2503,25 +2203,31 @@
              font-family="DroidSans"
              id="g638"
              fill-opacity="1"
-             stroke="none">
+             stroke="none"
+             style="fill:#00663b;fill-opacity:1">
             <text
                x="0"
                y="3.75"
-               id="text634">10kΩ</text>
+               id="text634"
+               style="fill:#00663b;fill-opacity:1">10kΩ</text>
             <text
                x="0"
                y="8.75"
-               id="text636">R5</text>
+               id="text636"
+               style="fill:#00663b;fill-opacity:1">R5</text>
           </g>
         </g>
       </g>
     </g>
     <g
        partID="102760"
-       id="g654">
+       id="g654"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(12.4804,135.703)"
-         id="g652">
+         id="g652"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2530,24 +2236,30 @@
            font-family="DroidSans"
            id="g650"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text646">C</text>
+             id="text646"
+             style="fill:#00663b;fill-opacity:1">C</text>
           <text
              x="0"
              y="8.75"
-             id="text648">47nF</text>
+             id="text648"
+             style="fill:#00663b;fill-opacity:1">47nF</text>
         </g>
       </g>
     </g>
     <g
        partID="103600"
-       id="g664">
+       id="g664"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(91.6851,71.5571)"
-         id="g662">
+         id="g662"
+         style="fill:#00663b;fill-opacity:1">
         <g
            font-size="5px"
            font-style="normal"
@@ -2556,27 +2268,34 @@
            font-family="DroidSans"
            id="g660"
            fill-opacity="1"
-           stroke="none">
+           stroke="none"
+           style="fill:#00663b;fill-opacity:1">
           <text
              x="0"
              y="3.75"
-             id="text656">R</text>
+             id="text656"
+             style="fill:#00663b;fill-opacity:1">R</text>
           <text
              x="0"
              y="8.75"
-             id="text658">100kΩ</text>
+             id="text658"
+             style="fill:#00663b;fill-opacity:1">100kΩ</text>
         </g>
       </g>
     </g>
     <g
        partID="104470"
-       id="g674">
+       id="g674"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(175.339,136.559)"
-         id="g672">
+         id="g672"
+         style="fill:#00663b;fill-opacity:1">
         <g
            transform="rotate(90)"
-           id="g670">
+           id="g670"
+           style="fill:#00663b;fill-opacity:1">
           <g
              font-size="5px"
              font-style="normal"
@@ -2585,24 +2304,30 @@
              font-family="DroidSans"
              id="g668"
              fill-opacity="1"
-             stroke="none">
+             stroke="none"
+             style="fill:#00663b;fill-opacity:1">
             <text
                x="0"
                y="3.75"
-               id="text666">U1</text>
+               id="text666"
+               style="fill:#00663b;fill-opacity:1">U1</text>
           </g>
         </g>
       </g>
     </g>
     <g
        partID="104500"
-       id="g684">
+       id="g684"
+       transform="matrix(9.2745727,0,0,9.2745727,259.52795,-15.290284)"
+       style="fill:#00663b;fill-opacity:1">
       <g
          transform="translate(155.862,172.769)"
-         id="g682">
+         id="g682"
+         style="fill:#00663b;fill-opacity:1">
         <g
            transform="rotate(-90)"
-           id="g680">
+           id="g680"
+           style="fill:#00663b;fill-opacity:1">
           <g
              font-size="5px"
              font-style="normal"
@@ -2611,21 +2336,273 @@
              font-family="DroidSans"
              id="g678"
              fill-opacity="1"
-             stroke="none">
+             stroke="none"
+             style="fill:#00663b;fill-opacity:1">
             <text
                x="0"
                y="3.75"
-               id="text676">U2</text>
+               id="text676"
+               style="fill:#00663b;fill-opacity:1">U2</text>
           </g>
         </g>
       </g>
     </g>
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.46116;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#501616;stroke-width:13.5516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect694"
-       width="216.49072"
-       height="216.31065"
-       x="-27.252159"
-       y="23.022013" />
+       width="2007.8589"
+       height="2006.1888"
+       x="6.7758188"
+       y="198.22905" />
+    <g
+       id="g378"
+       transform="matrix(0,-9.2745727,9.2745727,0,1758.8183,1645.3034)"
+       style="stroke:#552200;stroke-opacity:1">
+      <line
+         fill="none"
+         x2="13.68"
+         y1="7.5599999"
+         stroke-width="0.75"
+         y2="3.96"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="6.4809999"
+         id="line364"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="6.4809999"
+         y1="3.96"
+         stroke-width="0.75"
+         y2="0.36000001"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="13.68"
+         id="line366"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="13.68"
+         y1="0.36000001"
+         stroke-width="0.75"
+         y2="3.96"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="13.68"
+         id="line368"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="6.4809999"
+         y1="0.36000001"
+         stroke-width="0.75"
+         y2="7.5599999"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="6.4809999"
+         id="line370"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="13.68"
+         y1="3.96"
+         stroke-width="0.75"
+         y2="7.5599999"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="13.68"
+         id="line372"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="15.119"
+         y1="0.36000001"
+         stroke-width="0.75"
+         y2="0.36000001"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="13.68"
+         id="line374"
+         style="stroke:#552200;stroke-opacity:1" />
+      <line
+         fill="none"
+         x2="12.24"
+         y1="7.5599999"
+         stroke-width="0.75"
+         y2="7.5599999"
+         stroke-linecap="round"
+         stroke="#000000"
+         x1="13.68"
+         id="line376"
+         style="stroke:#552200;stroke-opacity:1" />
+    </g>
+    <line
+       fill="none"
+       x2="1795.5457"
+       y1="1585.7142"
+       stroke-width="6.95593"
+       y2="1518.4736"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1795.5457"
+       id="line380"
+       style="stroke:#552200;stroke-width:6.95624;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1795.2581"
+       y1="1247.5819"
+       stroke-width="6.95593"
+       y2="1330.6635"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1795.2581"
+       id="line338"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1761.8696"
+       y1="1247.7117"
+       stroke-width="6.95593"
+       y2="1247.7117"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1828.6466"
+       id="line328"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1795.2581"
+       y1="1314.4794"
+       stroke-width="6.95593"
+       y2="1314.4794"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1828.6466"
+       id="line326"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1761.8696"
+       y1="1314.4794"
+       stroke-width="6.95593"
+       y2="1314.4794"
+       stroke-linecap="round"
+       stroke="#000000"
+       x1="1795.2581"
+       id="line330"
+       style="stroke:#552200;stroke-opacity:1" />
+    <line
+       fill="none"
+       x2="1795.2581"
+       y1="1385.0083"
+       stroke-width="6.95593"
+       y2="1321.226"
+       stroke-linecap="round"
+       stroke="#787878"
+       x1="1795.2581"
+       id="line348"
+       style="stroke-width:6.95625;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none" />
+    <rect
+       height="325.53748"
+       fill="#ffffff"
+       x="1065.0292"
+       stroke-width="8.34712"
+       y="919.79999"
+       width="258.76059"
+       stroke-linecap="round"
+       class="interior rect"
+       stroke="#000000"
+       id="rect2"
+       style="fill:none;stroke:#003122;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="534.05994"
+       cy="2046.7904"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle504"
+       style="stroke:none;stroke-opacity:1;fill:#023923;fill-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="528.66357"
+       cy="1717.5577"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6136"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="927.30188"
+       cy="1182.7341"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6138"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="927.30188"
+       cy="1115.9572"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6140"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="927.30188"
+       cy="1049.1803"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6142"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="1458.2701"
+       cy="1049.1803"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6144"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="1458.2701"
+       cy="1115.9572"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6146"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="1657.8923"
+       cy="1113.9817"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6150"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="1795.4065"
+       cy="1115.9572"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6152"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    <circle
+       fill="#000000"
+       cx="329.60718"
+       cy="2049.1833"
+       r="13.355385"
+       stroke-width="0"
+       stroke="none"
+       id="circle6154"
+       style="fill:#023923;fill-opacity:1;stroke:none;stroke-opacity:1" />
   </g>
 </svg>

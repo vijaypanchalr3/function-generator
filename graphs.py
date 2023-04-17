@@ -37,7 +37,7 @@ def highlow():
     A1 = np.zeros(len(w))
     A2 = np.zeros(len(w))
     for i in range(len(w)):
-        A1[i]=1/(1+np.exp(-(i-75/2)/5))
+        A1[i]=1/(1+np.exp(-(i-75/2+9)/5))
         A2[i]=1/(1+np.exp((i-75/2)/5))
         
     fig, ax = plt.subplots()
@@ -62,4 +62,3 @@ def fourierana1():
     # plt.legend()
     # plt.savefig('imgs/high.png')
     plt.show()
-fourierana1()

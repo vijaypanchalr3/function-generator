@@ -1,6 +1,5 @@
 #+OPTIONS: toc:nil
-
-
+#+LATEX_HEADER: \usepackage{tabularx}
 
 
 # This is title page
@@ -61,7 +60,7 @@ Acknowledgement\\
 We would like to thank to the our Head of Department
 - Dr. P. N. Gajjar sir for their faith in us and
 supporting us in everyway. Special thanks to our
-respected mentor Dr. D. B. Patel sir for their support,
+respected mentor Mr. D. B. Patel sir for their support,
 encouragement and supervision in every step of this
 project. We also thank to all our respected professors
 for their support to complete this project successfully.\\
@@ -93,7 +92,7 @@ We used basic circuits with few modification as our need. With use of IC LM741 w
 
 For Sinusoidal wave we used Wein Bridge circuit, which is easy to understand and impliment. Also, wein bridge circuit is quite less noice compare to it's compitition RC phase shift Oscillator, which have more component than Wein bridge and more complicated to understand. For Square wave we used standard astable multivibrator cicuit, with little modification. Lastly, Triangle wave can be made from just attaching Integrator to our square wave output with some regulation.
 
-Now, each circuit ( this wave form generator) has different block, basically we divided whole circuit in there block. Main work for us is to combine all of this. We wandered across CMOS families, BJTs but finally we sattled into physical swith which is coupled for power transmission and also for output change.\cite{gayakwad2012op}
+Now, each circuit ( this wave form generator) has different block, basically we divided whole circuit in there block. Main work for us is to combine all of this. We wandered across CMOS families, BJTs but finally we sattled into physical swith which is coupled for power transmission and also for output change.\cite{gayakwad2012op} \cite{horowitz1989art}\cite{wiki}
 
 * Blocks
 
@@ -102,10 +101,12 @@ Now, each circuit ( this wave form generator) has different block, basically we 
 As told in introduction each circuit is in their blocks. First block for sine wave which is nothing but wien bridge circuit, second is sqaure which is astable multivibrator, third for triangular wave which integrator attached to second block (square wave block).
 
 
-#+CAPTION: Block diagram of our function generator
-#+NAME: block
-#+ATTR_LATEX:  :width .95\textwidth
-[[file:imgs/blocks.png]]
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.95\textwidth]{imgs/blocks.png}
+    \caption{Block diagram of our function generator}
+    \label{fig:block}
+\end{figure}
 
 
 ** Block 1: Sine wave generator
@@ -171,6 +172,15 @@ In wien bridge, this is principle is mostly exploited. We have two RC components
 *** Series RC components in Wien bridge
 Series RC component which works as low pass filter have this type of phenomenan, total $V_{in}$ and $V_{out}$ will be proportional to the to total reactance. With voltage divider low, 
 
+\begin{figure}[h]
+\centering
+\begin{tabular}{cc}
+    \includegraphics[width=0.5\linewidth]{imgs/lowpassfilter1.png}&
+    \includegraphics[width=0.3\linewidth]{imgs/highpassfilter2.png}
+\end{tabular}
+\caption{figure as shows low pass filter in wein bridge which is in series configuaration. Figure b suggest general way we can low pass filter}
+\label{fig:lowpass}
+\end{figure}
 
 \begin{equation*}
 \frac{V_o}{V_i}= \frac{X_c}{R+X_c}
@@ -204,6 +214,17 @@ Graph of low pass shown in figure \ref{fig:filters}a. Where we can see frequency
 *** Parallel RC components in Wien bridge
 Similarly to that of series RC components, we can define high pass filter as parallel RC component. In parallel circuit when frequency increases reactance decreases and total reactance decreases. So, consequently higher frequency pass and lower frequency will not. Reactance of high pass filter would be following, 
 
+
+
+\begin{figure}[H]
+\centering
+\begin{tabular}{cc}
+    \includegraphics[width=0.5\linewidth]{imgs/highpassfilter1.png}&
+    \includegraphics[width=0.3\linewidth]{imgs/lowpassfilter2.png}
+\end{tabular}
+\caption{figure as shows high pass filter in wein bridge which is in parallel configuaration. Figure b suggest general way we can high pass filter}
+\label{fig:highpass}
+\end{figure}
 
 \begin{equation*}
 \frac{V_o}{V_i}= \frac{R}{R+X_c}
@@ -243,7 +264,7 @@ For higher frequency, we got idea to put low pass filter around value of resonan
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\linewidth]{imgs/highlow.png}
+\includegraphics[width=0.5\linewidth]{imgs/twolow.png}
 \caption{low pass filter at the output of our signal}
 \label{fig:lowpass}
 \end{figure}
@@ -254,31 +275,34 @@ For lower frequency, we have high pass filter, which eliminate those lower frequ
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\linewidth]{imgs/highlow.png}
+\includegraphics[width=0.5\linewidth]{imgs/highpassfilter2.png}
 \caption{high pass filter at the output of our signal}
 \label{fig:highpass}
 \end{figure}
 
+
+*** Output of sine wave after tuning
+The output which we expected from our upper analysis at different frequency is shown below in figure \ref{fig:sineout}. The frequency range of sine wave output is given below in table. You should know that this
+
 \begin{figure}[H]
 \centering
 \begin{tabular}{ccc}
-    \includegraphics[width=0.32\linewidth]{imgs/square100.png}&
-    \includegraphics[width=0.32\linewidth]{imgs/square500.png}&
-    \includegraphics[width=0.32\linewidth]{imgs/square1k.png}\\
-    \includegraphics[width=0.32\linewidth]{imgs/square7k.png}&
-    \includegraphics[width=0.32\linewidth]{imgs/square10k.png}&        
-    \includegraphics[width=0.32\linewidth]{imgs/square30k.png}\\
-    \includegraphics[width=0.32\linewidth]{imgs/square47k.png}&
-    \includegraphics[width=0.32\linewidth]{imgs/square60k.png}&
-    \includegraphics[width=0.32\linewidth]{imgs/square66k.png}
+    \includegraphics[width=.49\linewidth]{imgs/square100.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square500.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square1k.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square7k.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square10k.png}&        
+    \includegraphics[width=.49\linewidth]{imgs/square30k.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square47k.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square60k.png}
+    % \includegraphics[width=.49\linewidth]{imgs/square66k.png}
 \end{tabular}
 \vspace{0.2cm}
 \caption{You can see all square wave outputs left to right respectevely 100Hz, 500Hz, 1kHz, 7kHz, 10kHz, 30kHz, 47kHz, 60kHz and 66kHz}
 \label{fig:filters}
 \end{figure}
 
-*** Output of sine wave after tuning
-The output which we expected from our upper analysis at different frequency is shown below in figure \ref{fig:sineout}. The frequency range of sine wave output is given below in table. You should know that this $V_{out}{p-p}$ is after applying all the filters and tuning. Original output is quite large in peak to peak voltage around 5 times big.
+ $V_{out}{p-p}$ is after applying all the filters and tuning. Original output is quite large in peak to peak voltage around 5 times big.
 
 
 
@@ -290,19 +314,9 @@ As square wave generator we have basic astable multivibrator. This circuit works
 \begin{figure}[H]
     \centering
     \label{square}
-    \includegraphics[width=0.65\textwidth]{imgs/square.png}
+    \includegraphics[width=0.75\textwidth]{imgs/square.png}
     \caption{astable multivibrator circuit}
 \end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \label{squarereal}
-    \includegraphics[width=0.75\textwidth]{imgs/squarereal.png}
-    \caption{second block: square wave generator}
-\end{figure}
-
-
 Here, frequency would be, 
 
 #+NAME: eqn:5
@@ -320,94 +334,313 @@ If, we take $R_{2}=1.16R_{1}$ then,
 
 Here, we took $R_{1} = 10k\Omega$ and $R_{2} = 11.6k\Omega$ such that $\frac{R_{2}}{R_{1}}=1.16$. Also, you can see that we employed $100k\Omega$ in input terminals for accurate and reliable signal.
 
-Frequency range would be of (for constant capacitance at $50nF$),
+\begin{figure}[H]
+    \centering
+    \label{squarereal}
+    \includegraphics[width=0.85\textwidth]{imgs/squarereal.png}
+    \caption{second block: square wave generator}
+\end{figure}
+
+
+Frequency range would be of (for constant capacitance at $47nF$) and here our $R_1$ and $R_2$ are equal at $10k\Omega$,
 
 #+NAME: eqn:7
 \begin{equation*}
-  f_{min} =\frac{1}{2\times 100k\times 50n} \approx 100 hz
+  f_{min} =\frac{1}{2\times 100k\times 47n \times ln(3)} \approx 97 hz
 \end{equation*}
 
 #+NAME: eqn:7
 \begin{equation*}
-  f_{max} =\frac{1}{2\times 100 \times 50n} \approx 100 khz
+  f_{max} =\frac{1}{2\times 100 \times 47n \times ln(3)} \approx 97 khz
 \end{equation*}
+
+
+*** Problems in getting Square wave
+
+Square wave is mostly (maybe lesser) immune to those porblem of sine wave generator but still it has serious problem. Mainly of slew rate problem, which is quite fundamental to OpAmp than particular circuit. For understanding this phenomena  we should exploit inner working of OpAmp. 
+
+Let's define some phenomena before taking serious talk on output signals.
+
+
+**1) Transient state:** After some initial stable state, if the system (for us the OpAmp) comes at another steady state, the intermediate state is called transient state.
+
+**2) Steady state:** The state at which system has fix value of response (stable) which independent on time is called steady state (response).
+
+**3) Slew rate:** State is maximum rate of change with respect to microsecond of time. 
+
+$$ S = \left.\frac{dV}{dt}\right|_{max}$$
+
+It is measured in $\frac{V}{\mu s}$. After seeing this, it's quite transparent to see the problem in our square wave generator. Also, the thing is slew rate is slop of signal with voltage and time domain. We can also see that it'll show us how gradual signal change from two steady state.
+
+
+When signal is at $\pm V_{sat}$, it is at steady state. When it's changes signal goes into transient state. A fact that Slew rate is fundamental property IC (LM741 has slew rate around $\appro .5 V/\mu s$), which shows us how some IC is more reactive and some are not. This also defines Bandwidth some times. If we take high frequency which change so rapidly that slew rate can't keep up to signal than signal will not even change after some frequency value.
 
  
 *** Output of square wave
 
-\begin{figure}[ht]
+In out project we have IC LM741 with slewrate of $0.5 V/\mu s$. Which directly means that our square wave will not look square wave after some frequencies value.
+For example look at this results after some $10k Hz$ it is deforming.  
+
+
+For better result, we can use OpAmp with higher slew rate. Typically /current feedback OpAmp/ has higher response type, consequently higher slew rate (in the order of $4k V/\mu s$). Even for some voltage feedback OpAmp has higher Slew rate in range of $500 V/\mu s$ to $3000 V/\mu s$. Some ICs and it's slew rate value are shown in this table.
+
+\begin{center}
+\begin{tabularx}{1\textwidth}{
+| >{\raggedright\arraybackslash}X 
+| >{\raggedright\arraybackslash}X 
+| >{\raggedright\arraybackslash}X 
+| >{\raggedright\arraybackslash}X |}
+\hline
+ IC NAME & slew rate & gain bandwidth product & type\\
+\hline \hline 
+OPA 859QDSGRQ1&  1.15 kV/$\mu$ s  & 900 MHz                & voltage feedback \\
+\hline
+MAX 4212EUK+T &  600 V/$\mu $s    & 300$MHz                & voltage feedback \\
+\hline
+AD 9631ARZ    &  1.3 kV/$\mu $s &$  110 MHz               &  voltage feedback \\
+\hline
+BUF 634AIDR   &  3.75 kv/$\mu $s  & 240 MHz                & voltage feedback \\
+\hline
+OPA 695IDGKT  &  4.3 kV/$\mu s$   & 1.7 GHz               &  current feedback \\
+\hline
+THS3001IDGN  &  6.5 kV/$\mu$ s   & 420 MHz               &  current feedback \\
+\hline
+\end{tabularx}
+\end{center}
+
+\begin{figure}[H]
 \centering
 \begin{tabular}{ccc}
-    \includegraphics[width=0.33\linewidth]{imgs/square100.png}&
-    \includegraphics[width=0.33\linewidth]{imgs/square500.png}&
-    \includegraphics[width=0.33\linewidth]{imgs/square1k.png}\\
-    \includegraphics[width=0.33\linewidth]{imgs/square7k.png}&
-    \includegraphics[width=0.33\linewidth]{imgs/square10k.png}&        
-    \includegraphics[width=0.33\linewidth]{imgs/square30k.png}\\
-    \includegraphics[width=0.33\linewidth]{imgs/square47k.png}&
-    \includegraphics[width=0.33\linewidth]{imgs/square60k.png}&
-    \includegraphics[width=0.33\linewidth]{imgs/square66k.png}
+    \includegraphics[width=.49\linewidth]{imgs/square100.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square500.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square1k.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square7k.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square10k.png}&        
+    \includegraphics[width=.49\linewidth]{imgs/square30k.png}\\
+    \includegraphics[width=.49\linewidth]{imgs/square47k.png}&
+    \includegraphics[width=.49\linewidth]{imgs/square60k.png}
+    % \includegraphics[width=.49\linewidth]{imgs/square66k.png}
 \end{tabular}
 \vspace{0.2cm}
-\caption{here, we have a) low pass filter, b) high pass filter and c) combination of high and low pass fiter}
+\caption{You can see all square wave outputs left to right respectevely 100Hz, 500Hz, 1kHz, 7kHz, 10kHz, 30kHz, 47kHz and 60kHz}
 \label{fig:filters}
 \end{figure}
 
 
 
-** Block 3: Triangluar Wave generator
+Frequency to Output voltage is necessary too. Frequency to output voltage is in this relation. This gives out frequency range which is up to 60kHz. Data if this is given on appendix.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{imgs/squaregraph.png}
+\caption{frequency to output voltage relation and maximum frequency in this oscillator}
+\end{figure}
+
+
+
+** Block 3: Triangular Wave generator
 
 We basically extend block 2 with integrator circuit. Which would give triangular wave as intended. Here, this integrator circuit differs from basic circuit that $100k\Omega$ as feedback resister is joined. Which would give better stability and accurate output. Circuit diagram is shown below,
 
 
 \begin{figure}[H]
     \centering
-    \label{triang}
     \includegraphics[width=0.5\textwidth]{imgs/triang.png}
     \caption{integrator circuit with square wave as input}
+    \label{fig:triang}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \label{tringularreal}
     \includegraphics[width=0.95\textwidth]{imgs/triangreal.png}
     \caption{block 3: triangluar wave generator}
+    \label{fig:tringularreal}
 \end{figure}
 
 Here, $R_{4}$ have to be $10R_{3}$. Frequency is give by same relation as block 2.
 
+*** Working of Integrator
+
+A Basic integrator is shown in figure \ref{fig:triang}. Which can modified as out need. Here basic passive components like capacitor and resistor used with OpAmp. The basic Integrator is made of inverting amplifier configuration. It has capacitor as feedback component. We used resistor of $100k\Omega$ in parallel to capacitor to stabilize integration operation. Since, capacitor as very low reactance at feedback. Here, inverting mode is employed so we have inverting input as virtual ground. Here, changing rate is determined by RC time constant. OpAmp produces ramp output till capacitor gets fully charged. The capacitor charges current decreases by the influence between the virtual ground and negative output.
+
+
+*** Output of triangular wave.
+
+Here, we have results of triangular waves as $V_0$ and frequency graph and practical data between them. You can see out practical data in appendix. All Output in CRO is shown in figure --refs{fig:tringout}. 
+
+------
+Triangout
+------
+
 
 * connection and switching
 
-For connection of all this block we have used push pull button with two poles. One for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure below.
+For connection of all this block we have used DPST switch with. This have two poles, one for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure below.
 
-When switch is **ON** (means pushed) it will connect 1 terminals with common and complete the circuit. When switch is **OFF** (pulled condition), the circuit will open and we will not get connection.
+When switch is **ON** it will connect 1 terminals with common and complete the circuit. When switch is **OFF** (pulled condition), the circuit will open and we will not get connection.
 
-\begin{figure}[H]
-    \centering
-    \label{switchon}
-    \includegraphics[width=0.5\textwidth]{imgs/switchon.png}
-    \caption{switch on state for two pole push button switch}
-\end{figure}
 
 \begin{figure}[H]
-    \centering
-    \label{switchoff}
+\centering
+\begin{tabular}{cc}
+    \includegraphics[width=0.5\textwidth]{imgs/switchon.png}&
     \includegraphics[width=0.5\textwidth]{imgs/switchoff.png}
-    \caption{switch off state for two pole push button switch}
+\end{tabular}
+\caption{Here we have basic diagram of DPST switch, you can see how will switch connect internally for both on and off states. Figure a) is for switch on state and figure b) for off state}
+\label{fig:switch}    
 \end{figure}
 
-The +Vcc in common (upper common) is completely independent of Output terminal common (lower common). Which means switch can completely operate two tasks, which is when on it power the block and take output and give to CRO. You can see this is on block diagram in figure 1 <<block>>.
 
- 
+The +Vcc in common (upper common) is completely independent of Output terminal common (lower common). Which means switch can completely operate two tasks, which is when on it power the block and take output and give to CRO. You can see this is on block diagram in figure \ref{fig:block}.
 
-* Output
 
-The output of whole circuit which is single output after connecting switches, will goes to CRO (cathode ray oscilloscope), which will measure gain and show signal form.
+* Appendix
 
-Theoritically, it shoult give exact signal but errors from ICs, connections, components are reasonable. We are tried our best to minimize it with simulation in Pspice simulations. But real life and simulations are distanced things. We are expected to see some divergence.
+** Practical Data
+*** Sine wave data
 
-* Pspice simulations
+*** Square wave data
+\begin{figure}[H] \centering{
+\includegraphics[scale=0.7]{squaredata.pdf}}
+\end{figure}  
+*** Triangular data
+** Used components in this project
+
+We used standard components in this projects. For resistor we used ceramic resistor and ceramic capacitor for capacitor. As problem with availability 47nF capacitor is plastic 
+
+
+*** Ceramic resistor
+
+A ceramic resistor is a fixed resistor used in electronic circuits. As name suggests the resistor's name suggest it is made from ceramic as substrate. Ceramic resistors are compact and versatile. Ceramic resistors are made by mixing ceramic powder with metallic oxide powder to form a paste. The paste is then shaped into a cylinder or rectangle and dried before being fired in a kiln. The firing process produces a dense, hard, and non-porous ceramic substrate that is stable at high temperatures and resistant to thermal shock.
+
+/Advantages of ceramic resistors:/ a) high power rating. That means they can be used in higher power use case scenario compare to other type of resistors. \\ 
+b) As i said, ceramic resistor are compact and versatile. \\
+c) very reliable and low with tolerances. They get lower drift over time and can be used in harsh scenarios.\\
+*** Ceramics capacitor
+
+As name suggest it is made of ceramic as its dielectric material. There are most common in making electronic circuits. Ceramic capacitors are made by applying a layer of ceramic material to a metal electrode, creating a sandwich-like structure. The electrodes are then connected to leads or terminals, forming the capacitor. The thickness of the ceramic layer determines the capacitor's capacitance value, with thinner layers resulting in lower capacitance values and thicker layers resulting in higher capacitance values.
+
+/Advantages of ceramic capacitor/: a) ceramic capacitors can have high dielectric constant since ceramic have ceramic very low conductivity. This means it can store more energy in smaller package.\\
+b) they are small and lightweight. This is quite needed in modern electronics circuits.\\
+c) they are reliable in harsh conditions like extreme temperature variations, Making them suitable for almost every condition for electronic circuit purposes. They are also have very low drift with time making them suitable for long run.
+
+We used 10nF capacitor of ceramic capacitor.
+*** Polypropylene capacitor
+Polyester film capacitors are film capacitors using a dielectric made of the thermoplastic polar polymer material polyethylene terephthalate (PET), trade names Hostaphan or Mylar, from the polyester family. They are manufactured both as metallized wound and stacked versions, as well as film/foil types. The dielectric films, depending on the desired dielectric strength, are drawn in a special process to an extremely thin thickness, and are then provided with electrodes. The electrodes of film capacitors may be metallized aluminum or zinc applied directly to the surface of the plastic film, or a separate metallic foil. Film capacitors, together with ceramic capacitors and electrolytic capacitors, are the most common capacitor types for use in electronic equipment, and are used in many AC and DC microelectronics and electronics circuits
+
+We used 47nF capacitor of Polypropylene capacitor.
+*** zener diode
+
+A zener diode is a type of diode that is designed to operate in the reverse breakdown region of its voltage-current characteristics. This makes it useful as a voltage regulator in electronic circuits. The voltage across a zener diode is determined by the breakdown voltage, which is the voltage at which the diode starts to conduct in the reverse direction. Once the breakdown voltage is reached, the zener diode will conduct and maintain a relatively constant voltage across its terminals, regardless of changes in the applied voltage. This is main work of zener diode. It's straight voltage regulators with Fixed maximum voltage.
+
+Here, we have 12 volt zener diode, which is adequate for our purpose and regulating small voltage variations.
+
+If we take $V_z$ as voltage across the zener diode, $I_z$ as current through the diode, and R is the resistance of the load connected to the diode. In a typical voltage regulator circuit, the load resistance is known and fixed, so the voltage across the zener diode is determined by the current flowing through the diode. Current in reverse breakdown state,
+
+$$I_z = \frac{V_z - V_r}{R}$$
+
+where, $V_r$ is the reverse voltage applied to the diode.
+
+It can also be used as voltage clamper and voltage reference applications.
+
+** Data sheet of OpAmp we used (IC LM741)
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.85,page=2]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=3]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=4]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=5]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=6]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=7]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=8]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=9]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=10]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=11]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=12]{741data.pdf}}
+\end{figure}  
+\pagebreak
+# \begin{figure}[H] \centering{
+# \hspace*{-0.8in}
+# \includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=13]{741data.pdf}}
+# \end{figure}  
+# \pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=14]{741data.pdf}}
+\end{figure}  
+\pagebreak
+# \begin{figure}[H] \centering{
+# \hspace*{-0.8in}
+# \includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=15]{741data.pdf}}
+# \end{figure}  
+# \pagebreak
+# \begin{figure}[H] \centering{
+# \hspace*{-1in}
+# \includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=16]{741data.pdf}}
+# \end{figure}  
+# \pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=17]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=18]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-0.8in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=19]{741data.pdf}}
+\end{figure}  
+\pagebreak
+\begin{figure}[H] \centering{
+\hspace*{-1in}
+\includegraphics[trim={0 1.1in 0 0},clip,scale=0.9,page=20]{741data.pdf}}
+\end{figure}  
+\pagebreak
+** Pspice simulations
 
 We did Pspice simulation In [[eww:https://www.falstad.com/circuit/]] \cite{Falsted} by Paul Falsted. Here are simlations result from different blocks. This outputs are for Potentiometer valued at $3.3k\Omega$. We gain peek to peek voltage value at $2.8917V$ for sine wave and $2.11V$ and $2.2$ in square wave and triangular wave respectively. This figures are from matplotlib \cite{Hunter:2007}\cite{harris2020array}, since we could not get from falsted. We got accurate p-p voltages.
 
@@ -419,6 +652,9 @@ We did Pspice simulation In [[eww:https://www.falstad.com/circuit/]] \cite{Falst
 \end{figure}
 
 
-  \bibliography{documentation}
-  \addcontentsline{toc}{section}{References}
-  \bibliographystyle{plain}
+
+
+
+\bibliography{documentation}
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plain}
