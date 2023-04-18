@@ -275,7 +275,7 @@ For lower frequency, we have high pass filter, which eliminate those lower frequ
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\linewidth]{imgs/highpassfilter2.png}
+\includegraphics[width=0.3\linewidth]{imgs/highpassfilter2.png}
 \caption{high pass filter at the output of our signal}
 \label{fig:highpass}
 \end{figure}
@@ -283,7 +283,9 @@ For lower frequency, we have high pass filter, which eliminate those lower frequ
 
 *** Output of sine wave after tuning
 The output which we expected from our upper analysis at different frequency is shown below in figure \ref{fig:sineout}. The frequency range of sine wave output is given below in table. You should know that this
-
+-----
+Real output is needed here with graph
+-----
 \begin{figure}[H]
 \centering
 \begin{tabular}{ccc}
@@ -473,6 +475,9 @@ Here, we have results of triangular waves as $V_0$ and frequency graph and pract
 Triangout
 ------
 
+-----
+Triang graph v0 vs frequency
+-----
 
 * connection and switching
 
@@ -484,7 +489,7 @@ When switch is **ON** it will connect 1 terminals with common and complete the c
 \begin{figure}[H]
 \centering
 \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{imgs/switchon.png}&
+    \includegraphics[width=0.5\textwidth]{imgs/switch.png}&
     \includegraphics[width=0.5\textwidth]{imgs/switchoff.png}
 \end{tabular}
 \caption{Here we have basic diagram of DPST switch, you can see how will switch connect internally for both on and off states. Figure a) is for switch on state and figure b) for off state}
@@ -498,13 +503,62 @@ The +Vcc in common (upper common) is completely independent of Output terminal c
 * Appendix
 
 ** Practical Data
+We have taken some quantatitive work here for our project. 
 *** Sine wave data
 
+-----
+Sine data
+-----
+
+\pagebreak
 *** Square wave data
-\begin{figure}[H] \centering{
-\includegraphics[scale=0.7]{squaredata.pdf}}
-\end{figure}  
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.5\textwidth}{
+| >{\raggedright\arraybackslash}X 
+| >{\raggedright\arraybackslash}X |}
+\hline
+Frequency & $V_o$\\
+\hline
+\hline
+77&7.6\\
+100&10.8\\
+200&10.8\\
+300&10.8\\
+400&10.8\\
+500&10.8\\
+600&10.9\\
+700&10.9\\
+800&10.8\\
+900&10.9\\
+1000&10.8\\
+2000&10.8\\
+3000&10.8\\
+4000&10.8\\
+5000&10.4\\
+6000&10.4\\
+7000&10.4\\
+8000&10.4\\
+9000&10.4\\
+10000&10.4\\
+20000&9.4\\
+30000&7.8\\
+40000&4.33\\
+50000&1.78\\
+60000&1\\
+65000&0.816\\
+\hline
+
+\end{tabularx}
+\end{figure}
+
+
+
 *** Triangular data
+-----
+Trian data
+-----
+
 ** Used components in this project
 
 We used standard components in this projects. For resistor we used ceramic resistor and ceramic capacitor for capacitor. As problem with availability 47nF capacitor is plastic 
@@ -543,8 +597,7 @@ $$I_z = \frac{V_z - V_r}{R}$$
 where, $V_r$ is the reverse voltage applied to the diode.
 
 It can also be used as voltage clamper and voltage reference applications.
-
-** Data sheet of OpAmp we used (IC LM741)
+** Data sheet of OpAmp we used (IC uA741CP)
 \begin{figure}[H] \centering{
 \hspace*{-1in}
 \includegraphics[trim={0 1.1in 0 0},clip,scale=0.85,page=2]{741data.pdf}}

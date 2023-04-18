@@ -45,13 +45,13 @@
      inkscape:window-height="741"
      id="namedview1244"
      showgrid="false"
-     inkscape:zoom="0.088388348"
-     inkscape:cx="1802.0066"
-     inkscape:cy="744.96686"
+     inkscape:zoom="0.077828789"
+     inkscape:cx="-135.19097"
+     inkscape:cy="348.39388"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1242"
+     inkscape:current-layer="g3950"
      inkscape:document-rotation="0"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -1213,83 +1213,6 @@
          x="950.74719"
          y="-1322.0952"
          style="stroke-width:7.36878">2</text>
-      <line
-         x2="2481.7944"
-         y2="1153.3562"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1206.4039"
-         stroke-width="5.52658"
-         x1="2508.322"
-         id="line398"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2455.2668"
-         y2="1206.4039"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1153.3562"
-         stroke-width="5.52658"
-         x1="2481.7944"
-         id="line400"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2481.7944"
-         y2="1153.3562"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1153.3562"
-         stroke-width="5.52658"
-         x1="2455.2668"
-         id="line402"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2508.322"
-         y2="1206.4039"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1206.4039"
-         stroke-width="5.52658"
-         x1="2455.2668"
-         id="line404"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2508.322"
-         y2="1153.3562"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1153.3562"
-         stroke-width="5.52658"
-         x1="2481.7944"
-         id="line406"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2455.2668"
-         y2="1142.7524"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1153.3562"
-         stroke-width="5.52658"
-         x1="2455.2668"
-         id="line408"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2508.322"
-         y2="1163.9672"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1153.3562"
-         stroke-width="5.52658"
-         x1="2508.322"
-         id="line410"
-         style="stroke:#552200;stroke-opacity:1" />
       <text
          fill="#8c8c8c"
          font-family="DroidSans"
@@ -1328,72 +1251,6 @@
          x="-1246.981"
          y="2474.0513"
          style="stroke-width:7.36878">2</text>
-      <line
-         x2="2481.5662"
-         y2="991.31677"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="938.26892"
-         stroke-width="5.52658"
-         x1="2455.0386"
-         id="line440"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2508.0938"
-         y2="938.26892"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="991.31677"
-         stroke-width="5.52658"
-         x1="2481.5662"
-         id="line442"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2481.5662"
-         y2="991.31677"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="991.31677"
-         stroke-width="5.52658"
-         x1="2508.0938"
-         id="line444"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2455.0386"
-         y2="991.31677"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="991.31677"
-         stroke-width="5.52658"
-         x1="2481.5662"
-         id="line448"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2508.0938"
-         y2="1001.9204"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="991.31677"
-         stroke-width="5.52658"
-         x1="2508.0938"
-         id="line450"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2455.0386"
-         y2="980.70575"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="991.31677"
-         stroke-width="5.52658"
-         x1="2455.0386"
-         id="line452"
-         style="stroke:#552200;stroke-opacity:1" />
       <text
          fill="#8c8c8c"
          font-family="DroidSans"
@@ -3053,12 +2910,12 @@
          x="186.16156"
          y="1015.4495"
          id="text1132"
-         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.36878">C</text>
+         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878;">C</text>
       <text
          x="186.16156"
          y="1052.2933"
          id="text1134"
-         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.36878">47nF</text>
+         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878;">47nF</text>
       <text
          x="769.80396"
          y="542.77277"
@@ -3107,7 +2964,7 @@
          x="1582.4575"
          y="842.20959"
          id="text1202"
-         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878;">100kΩ</text>
+         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878">10kΩ</text>
       <text
          x="2079.7983"
          y="1283.894"
@@ -3122,12 +2979,12 @@
          x="2080.0266"
          y="1024.7858"
          id="text1220"
-         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.36878">R7</text>
+         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878;">R7</text>
       <text
          x="2080.0266"
          y="1061.6296"
          id="text1222"
-         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.36878">10kΩ</text>
+         style="font-style:normal;font-weight:normal;font-size:36.8439px;font-family:DroidSans;fill:#00663b;fill-opacity:1;stroke:none;stroke-width:7.36878;">100kΩ</text>
       <text
          x="1269.0975"
          y="-1735.8312"
@@ -3349,39 +3206,188 @@
          stroke="none"
          id="circle3597"
          style="fill:#023923;fill-opacity:1;stroke:#003122;stroke-opacity:1" />
-      <line
-         x2="2481.5662"
-         y2="991.31677"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="938.16577"
-         stroke-width="5.52658"
-         x1="2481.5662"
-         id="line456"
-         style="stroke-width:5.5267496;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2455.0386"
-         y2="938.26892"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="938.26892"
-         stroke-width="5.52658"
-         x1="2508.0938"
-         id="line446"
-         style="stroke:#552200;stroke-opacity:1" />
-      <line
-         x2="2481.7944"
-         y2="1153.3929"
-         fill="none"
-         stroke-linecap="round"
-         stroke="#000000"
-         y1="1206.5071"
-         stroke-width="5.52658"
-         x1="2481.7944"
-         id="line414"
-         style="stroke-linecap:square;stroke:#552200;stroke-opacity:1" />
+      <g
+         id="g1732">
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.26892"
+           stroke-width="5.52658"
+           x1="2455.0386"
+           id="line440"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.0938"
+           y2="938.26892"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line442"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line444"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line448"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.0938"
+           y2="1001.9204"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line450"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="980.70575"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2455.0386"
+           id="line452"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.16577"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line456"
+           style="stroke-width:5.5267496;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="938.26892"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.26892"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line446"
+           style="stroke:#552200;stroke-opacity:1" />
+      </g>
+      <g
+         id="g1760">
+        <line
+           x2="2481.7944"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.4039"
+           stroke-width="5.52658"
+           x1="2508.322"
+           id="line398"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.2668"
+           y2="1206.4039"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line400"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.7944"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line402"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1206.4039"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.4039"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line404"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line406"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.2668"
+           y2="1142.7524"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line408"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1163.9672"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2508.322"
+           id="line410"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.7944"
+           y2="1153.3929"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.5071"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line414"
+           style="stroke-linecap:square;stroke:#552200;stroke-opacity:1" />
+      </g>
       <circle
          fill="#000000"
          cx="1845.3375"
@@ -3400,6 +3406,190 @@
          stroke="none"
          id="circle3601"
          style="fill:#023923;fill-opacity:1;stroke:#003122;stroke-opacity:1" />
+      <g
+         id="g1750"
+         transform="translate(-1167.2141,53.055176)">
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.26892"
+           stroke-width="5.52658"
+           x1="2455.0386"
+           id="line1734"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.0938"
+           y2="938.26892"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line1736"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line1738"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line1740"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.0938"
+           y2="1001.9204"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line1742"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="980.70575"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="991.31677"
+           stroke-width="5.52658"
+           x1="2455.0386"
+           id="line1744"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.5662"
+           y2="991.31677"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.16577"
+           stroke-width="5.52658"
+           x1="2481.5662"
+           id="line1746"
+           style="stroke:#552200;stroke-width:5.52675;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <line
+           x2="2455.0386"
+           y2="938.26892"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="938.26892"
+           stroke-width="5.52658"
+           x1="2508.0938"
+           id="line1748"
+           style="stroke:#552200;stroke-opacity:1" />
+      </g>
+      <g
+         id="g1778"
+         transform="translate(-1167.214,53.018433)">
+        <line
+           x2="2481.7944"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.4039"
+           stroke-width="5.52658"
+           x1="2508.322"
+           id="line1762"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.2668"
+           y2="1206.4039"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line1764"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.7944"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line1766"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1206.4039"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.4039"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line1768"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1153.3562"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line1770"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2455.2668"
+           y2="1142.7524"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2455.2668"
+           id="line1772"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2508.322"
+           y2="1163.9672"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1153.3562"
+           stroke-width="5.52658"
+           x1="2508.322"
+           id="line1774"
+           style="stroke:#552200;stroke-opacity:1" />
+        <line
+           x2="2481.7944"
+           y2="1153.3929"
+           fill="none"
+           stroke-linecap="round"
+           stroke="#000000"
+           y1="1206.5071"
+           stroke-width="5.52658"
+           x1="2481.7944"
+           id="line1776"
+           style="stroke:#552200;stroke-linecap:square;stroke-opacity:1" />
+      </g>
     </g>
   </g>
 </svg>

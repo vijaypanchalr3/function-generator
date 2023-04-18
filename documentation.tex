@@ -1,4 +1,4 @@
-% Created 2023-04-17 Mon 22:37
+% Created 2023-04-18 Tue 12:41
 % Intended LaTeX compiler: pdflatex
 \documentclass[14pt,a4paper]{extarticle}
                 \usepackage{blindtext}
@@ -128,7 +128,7 @@ appreciate their contribution and thank them too.\\
 \pagenumbering{arabic} 
 \setcounter{page}{1}
 \section{Introduction}
-\label{sec:org52c0f32}
+\label{sec:org004d828}
 
 
 
@@ -142,7 +142,7 @@ For Sinusoidal wave we used Wein Bridge circuit, which is easy to understand and
 Now, each circuit ( this wave form generator) has different block, basically we divided whole circuit in there block. Main work for us is to combine all of this. We wandered across CMOS families, BJTs but finally we sattled into physical swith which is coupled for power transmission and also for output change.\cite{gayakwad2012op} \cite{horowitz1989art}\cite{wiki}
 
 \section{Blocks}
-\label{sec:orgf3b60a4}
+\label{sec:org8279cd8}
 
 
 
@@ -158,7 +158,7 @@ As told in introduction each circuit is in their blocks. First block for sine wa
 
 
 \subsection{Block 1: Sine wave generator}
-\label{sec:org4d561d2}
+\label{sec:orgd746f16}
 
 
 In first block, we have basic circuit of wein bridge. You can see in figure 1. In center we have OpAmp (IC LM741). This is amplifier with RC component attached with input and output. Here, at one end there is RC parallel component and at other end series RC component. 
@@ -174,14 +174,14 @@ In first block, we have basic circuit of wein bridge. You can see in figure 1. I
 Here, frequency is given by, 
 
 \begin{equation}
-\label{eq:orgc972d68}
+\label{eq:orgb52580f}
   f =\frac{1}{2 \pi RC}
 \end{equation}
 
 For sustaing oscilation gain must be 3 and for non inverting amplifier gain, 
 
 \begin{equation}
-\label{eq:org842bf25}
+\label{eq:orgdf4f6d6}
   A = 1+\frac{R_{F}}{R_{1}} = 3
 \end{equation}
 
@@ -200,19 +200,19 @@ Here, you can see our block circuit, at the end we attached two zener diode for 
 For frequency range we used Potential with max range of \(100k\Omega\). So, lowest and maximum frequency whould be (with constant capacitance at \(50nF\)),
 
 \begin{equation*}
-\label{eq:orgac3d6e6}
+\label{eq:org813a37f}
   f_{min} = \frac{1}{2\pi\times100k\times 10n} \approx 159 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:org100a695}
+\label{eq:org4cae3cc}
   f_{max} = \frac{1}{2\pi\times100\times 10n} \approx 159k hz
 \end{equation*}
 
 So, frequency range would be \(159 hz\) to \(159k hz\)
 
 \subsection{Tuning sine wave generator}
-\label{sec:org46e8748}
+\label{sec:orgce6a5fa}
 
 The output of sine wave generator can be little noisy. This will be reasonable as we will see it's working. Any sine wave generator will work as frequency extractor from DC or any AC levels. Since, Row signals have superposed waves in nearly all the spectrum, one have to rely on different filters and component which can attenuate desire frequency and theoretically minimize every other frequency. 
 
@@ -220,7 +220,7 @@ The output of sine wave generator can be little noisy. This will be reasonable a
 In wien bridge, this is principle is mostly exploited. We have two RC components, one in series make low pass filter and secondly there is parallel component which work as high pass filter. In \textbf{\textbf{figure}} there is highlighted areas of both filters. Here, it is quite straight forward see that low pass will block higher frequency and high pass will vice versa. So, if we set both filter such that combination will give us some band (quite narrow band in fact). Center of this frequencies will cut off frequency of both filters. When wien bridge balances than this band of frequency will be resonated and give final output.
 
 \subsubsection{Series RC components in Wien bridge}
-\label{sec:orgd318951}
+\label{sec:orgb455f63}
 Series RC component which works as low pass filter have this type of phenomenan, total \(V_{in}\) and \(V_{out}\) will be proportional to the to total reactance. With voltage divider low, 
 
 \begin{figure}[h]
@@ -263,7 +263,7 @@ Graph of low pass shown in figure \ref{fig:filters}a. Where we can see frequency
 
 
 \subsubsection{Parallel RC components in Wien bridge}
-\label{sec:org50348b5}
+\label{sec:orgcea2259}
 Similarly to that of series RC components, we can define high pass filter as parallel RC component. In parallel circuit when frequency increases reactance decreases and total reactance decreases. So, consequently higher frequency pass and lower frequency will not. Reactance of high pass filter would be following, 
 
 
@@ -292,14 +292,14 @@ This relationship is shown in figure \ref{fig:filters}b. With cutoff frequency a
 
 
 \subsubsection{Total signal and Error terms}
-\label{sec:org25123e9}
+\label{sec:org0f71536}
 In wien bridge we have both the low pass and high pass filters. So, total response of that shown in figure \ref{fig:filters}c. Here, we have gain frequencies in range between cutoff frequency. Since, this range amplify in non inverting amplifier and feedback. This frequency will resonant and becomes our output signal. From now on, we will say \(w_0\) as resonant frequency. Final output in our theoretical studies will be this resonant frequency. Practically this frequency is observed with error frequencies.
 
 Error terms in here will be in following cases. \emph{1) since we have band, we get many frequency output from the band, which is quite distorted in itself.} and \emph{2) here working of filters are note up to expectation and we have noise from whole spectrum of frequency.} This is quite headache, unfortunately we have both the cases in our experiment. 
 
 
 \subsubsection{Fourier analysis of Output signal}
-\label{sec:orgbce7c70}
+\label{sec:org8ab4ea6}
 
 We can minimize this errors by using Fourier analysis of output signal. As one can say that DC level is made of superposed infinite number of waves with different wavelengths,
 
@@ -329,16 +329,20 @@ For lower frequency, we have high pass filter, which eliminate those lower frequ
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.5\linewidth]{imgs/highpassfilter2.png}
+\includegraphics[width=0.3\linewidth]{imgs/highpassfilter2.png}
 \caption{high pass filter at the output of our signal}
 \label{fig:highpass}
 \end{figure}
 
 
 \subsubsection{Output of sine wave after tuning}
-\label{sec:org3ab34a9}
+\label{sec:orgaa1796e}
 The output which we expected from our upper analysis at different frequency is shown below in figure \ref{fig:sineout}. The frequency range of sine wave output is given below in table. You should know that this
 
+\noindent\rule{\textwidth}{0.5pt}
+Real output is needed here with graph
+
+\noindent\rule{\textwidth}{0.5pt}
 \begin{figure}[H]
 \centering
 \begin{tabular}{ccc}
@@ -363,7 +367,7 @@ The output which we expected from our upper analysis at different frequency is s
 
 
 \subsection{Block 2: Square wave generator}
-\label{sec:org9e374f9}
+\label{sec:org0dd8575}
 
 As square wave generator we have basic astable multivibrator. This circuit works on scenario where output will have to stable state and it will swing between them, hence the name. When circuit is \(+V_{sat}\), we will have high signal output and when circuit is \(-V_{sat}\), we will have low signal output. So, we will have square wave as desired. The circuit for astable multivibrator is shown below.
 
@@ -376,14 +380,14 @@ As square wave generator we have basic astable multivibrator. This circuit works
 Here, frequency would be, 
 
 \begin{equation}
-\label{eq:org54e2ba3}
+\label{eq:orgcda15e0}
   f =\frac{1}{2 RC ln(\frac{2R_{1}+R_{2}}{R_{2}})}
 \end{equation}
 
 If, we take \(R_{2}=1.16R_{1}\) then, 
 
 \begin{equation}
-\label{eq:org2626dbb}
+\label{eq:org00ce226}
   f =\frac{1}{2RC}
 \end{equation}
 
@@ -401,18 +405,18 @@ Here, we took \(R_{1} = 10k\Omega\) and \(R_{2} = 11.6k\Omega\) such that \(\fra
 Frequency range would be of (for constant capacitance at \(47nF\)) and here our \(R_1\) and \(R_2\) are equal at \(10k\Omega\),
 
 \begin{equation*}
-\label{eq:orgb40614f}
+\label{eq:org083c053}
   f_{min} =\frac{1}{2\times 100k\times 47n \times ln(3)} \approx 97 hz
 \end{equation*}
 
 \begin{equation*}
-\label{eq:org6f8384a}
+\label{eq:org5d633c6}
   f_{max} =\frac{1}{2\times 100 \times 47n \times ln(3)} \approx 97 khz
 \end{equation*}
 
 
 \subsubsection{Problems in getting Square wave}
-\label{sec:org29f48a0}
+\label{sec:org917c9f3}
 
 Square wave is mostly (maybe lesser) immune to those porblem of sine wave generator but still it has serious problem. Mainly of slew rate problem, which is quite fundamental to OpAmp than particular circuit. For understanding this phenomena  we should exploit inner working of OpAmp. 
 
@@ -434,7 +438,7 @@ When signal is at \(\pm V_{sat}\), it is at steady state. When it's changes sign
 
 
 \subsubsection{Output of square wave}
-\label{sec:org3c8bbc0}
+\label{sec:org96ceb1f}
 
 In out project we have IC LM741 with slewrate of \(0.5 V/\mu s\). Which directly means that our square wave will not look square wave after some frequencies value.
 For example look at this results after some \(10k Hz\) it is deforming.  
@@ -498,7 +502,7 @@ Frequency to Output voltage is necessary too. Frequency to output voltage is in 
 
 
 \subsection{Block 3: Triangular Wave generator}
-\label{sec:orgad00aa8}
+\label{sec:org5b04e51}
 
 We basically extend block 2 with integrator circuit. Which would give triangular wave as intended. Here, this integrator circuit differs from basic circuit that \(100k\Omega\) as feedback resister is joined. Which would give better stability and accurate output. Circuit diagram is shown below,
 
@@ -520,13 +524,13 @@ We basically extend block 2 with integrator circuit. Which would give triangular
 Here, \(R_{4}\) have to be \(10R_{3}\). Frequency is give by same relation as block 2.
 
 \subsubsection{Working of Integrator}
-\label{sec:org0e811b9}
+\label{sec:orgd1e9f0f}
 
 A Basic integrator is shown in figure \ref{fig:triang}. Which can modified as out need. Here basic passive components like capacitor and resistor used with OpAmp. The basic Integrator is made of inverting amplifier configuration. It has capacitor as feedback component. We used resistor of \(100k\Omega\) in parallel to capacitor to stabilize integration operation. Since, capacitor as very low reactance at feedback. Here, inverting mode is employed so we have inverting input as virtual ground. Here, changing rate is determined by RC time constant. OpAmp produces ramp output till capacitor gets fully charged. The capacitor charges current decreases by the influence between the virtual ground and negative output.
 
 
 \subsubsection{Output of triangular wave.}
-\label{sec:orge12749a}
+\label{sec:org5c5e87f}
 
 Here, we have results of triangular waves as \(V_0\) and frequency graph and practical data between them. You can see out practical data in appendix. All Output in CRO is shown in figure --refs\{fig:tringout\}. 
 
@@ -535,9 +539,13 @@ Triangout
 
 \noindent\rule{\textwidth}{0.5pt}
 
+\noindent\rule{\textwidth}{0.5pt}
+Triang graph v0 vs frequency
+
+\noindent\rule{\textwidth}{0.5pt}
 
 \section{connection and switching}
-\label{sec:org5e5e0f0}
+\label{sec:org5c0b6ec}
 
 For connection of all this block we have used DPST switch with. This have two poles, one for power controlling and other for output controlling. Basic diagram of this switch is drawn in figure below.
 
@@ -547,7 +555,7 @@ When switch is \textbf{\textbf{ON}} it will connect 1 terminals with common and 
 \begin{figure}[H]
 \centering
 \begin{tabular}{cc}
-    \includegraphics[width=0.5\textwidth]{imgs/switchon.png}&
+    \includegraphics[width=0.5\textwidth]{imgs/switch.png}&
     \includegraphics[width=0.5\textwidth]{imgs/switchoff.png}
 \end{tabular}
 \caption{Here we have basic diagram of DPST switch, you can see how will switch connect internally for both on and off states. Figure a) is for switch on state and figure b) for off state}
@@ -559,28 +567,79 @@ The +Vcc in common (upper common) is completely independent of Output terminal c
 
 
 \section{Appendix}
-\label{sec:org8751d62}
+\label{sec:org235bff2}
 
 \subsection{Practical Data}
-\label{sec:org6e71075}
+\label{sec:org93b7e22}
+We have taken some quantatitive work here for our project. 
 \subsubsection{Sine wave data}
-\label{sec:org76e162b}
+\label{sec:org4b176f4}
 
+\noindent\rule{\textwidth}{0.5pt}
+Sine data
+
+\noindent\rule{\textwidth}{0.5pt}
+
+\pagebreak
 \subsubsection{Square wave data}
-\label{sec:org3ea16d8}
-\begin{figure}[H] \centering{
-\includegraphics[scale=0.7]{squaredata.pdf}}
-\end{figure}  
+\label{sec:orgeeb0368}
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.5\textwidth}{
+| >{\raggedright\arraybackslash}X 
+| >{\raggedright\arraybackslash}X |}
+\hline
+Frequency & $V_o$\\
+\hline
+\hline
+77&7.6\\
+100&10.8\\
+200&10.8\\
+300&10.8\\
+400&10.8\\
+500&10.8\\
+600&10.9\\
+700&10.9\\
+800&10.8\\
+900&10.9\\
+1000&10.8\\
+2000&10.8\\
+3000&10.8\\
+4000&10.8\\
+5000&10.4\\
+6000&10.4\\
+7000&10.4\\
+8000&10.4\\
+9000&10.4\\
+10000&10.4\\
+20000&9.4\\
+30000&7.8\\
+40000&4.33\\
+50000&1.78\\
+60000&1\\
+65000&0.816\\
+\hline
+
+\end{tabularx}
+\end{figure}
+
+
+
 \subsubsection{Triangular data}
-\label{sec:org7d51330}
+\label{sec:org193c206}
+\noindent\rule{\textwidth}{0.5pt}
+Trian data
+
+\noindent\rule{\textwidth}{0.5pt}
+
 \subsection{Used components in this project}
-\label{sec:org83091b9}
+\label{sec:orge83d8bf}
 
 We used standard components in this projects. For resistor we used ceramic resistor and ceramic capacitor for capacitor. As problem with availability 47nF capacitor is plastic 
 
 
 \subsubsection{Ceramic resistor}
-\label{sec:org44edd5c}
+\label{sec:org4292336}
 
 A ceramic resistor is a fixed resistor used in electronic circuits. As name suggests the resistor's name suggest it is made from ceramic as substrate. Ceramic resistors are compact and versatile. Ceramic resistors are made by mixing ceramic powder with metallic oxide powder to form a paste. The paste is then shaped into a cylinder or rectangle and dried before being fired in a kiln. The firing process produces a dense, hard, and non-porous ceramic substrate that is stable at high temperatures and resistant to thermal shock.
 
@@ -588,7 +647,7 @@ A ceramic resistor is a fixed resistor used in electronic circuits. As name sugg
 b) As i said, ceramic resistor are compact and versatile. \\
 c) very reliable and low with tolerances. They get lower drift over time and can be used in harsh scenarios.\\
 \subsubsection{Ceramics capacitor}
-\label{sec:org22e8ea4}
+\label{sec:orgd10013f}
 
 As name suggest it is made of ceramic as its dielectric material. There are most common in making electronic circuits. Ceramic capacitors are made by applying a layer of ceramic material to a metal electrode, creating a sandwich-like structure. The electrodes are then connected to leads or terminals, forming the capacitor. The thickness of the ceramic layer determines the capacitor's capacitance value, with thinner layers resulting in lower capacitance values and thicker layers resulting in higher capacitance values.
 
@@ -598,12 +657,12 @@ c) they are reliable in harsh conditions like extreme temperature variations, Ma
 
 We used 10nF capacitor of ceramic capacitor.
 \subsubsection{Polypropylene capacitor}
-\label{sec:org3ed50fb}
+\label{sec:org50836c9}
 Polyester film capacitors are film capacitors using a dielectric made of the thermoplastic polar polymer material polyethylene terephthalate (PET), trade names Hostaphan or Mylar, from the polyester family. They are manufactured both as metallized wound and stacked versions, as well as film/foil types. The dielectric films, depending on the desired dielectric strength, are drawn in a special process to an extremely thin thickness, and are then provided with electrodes. The electrodes of film capacitors may be metallized aluminum or zinc applied directly to the surface of the plastic film, or a separate metallic foil. Film capacitors, together with ceramic capacitors and electrolytic capacitors, are the most common capacitor types for use in electronic equipment, and are used in many AC and DC microelectronics and electronics circuits
 
 We used 47nF capacitor of Polypropylene capacitor.
 \subsubsection{zener diode}
-\label{sec:org3593f11}
+\label{sec:org7264be8}
 
 A zener diode is a type of diode that is designed to operate in the reverse breakdown region of its voltage-current characteristics. This makes it useful as a voltage regulator in electronic circuits. The voltage across a zener diode is determined by the breakdown voltage, which is the voltage at which the diode starts to conduct in the reverse direction. Once the breakdown voltage is reached, the zener diode will conduct and maintain a relatively constant voltage across its terminals, regardless of changes in the applied voltage. This is main work of zener diode. It's straight voltage regulators with Fixed maximum voltage.
 
@@ -616,9 +675,8 @@ $$I_z = \frac{V_z - V_r}{R}$$
 where, \(V_r\) is the reverse voltage applied to the diode.
 
 It can also be used as voltage clamper and voltage reference applications.
-
-\subsection{Data sheet of OpAmp we used (IC LM741)}
-\label{sec:orgb94068b}
+\subsection{Data sheet of OpAmp we used (IC \(\mu\) A741CP)}
+\label{sec:org62213d5}
 \begin{figure}[H] \centering{
 \hspace*{-1in}
 \includegraphics[trim={0 1.1in 0 0},clip,scale=0.85,page=2]{741data.pdf}}
@@ -702,7 +760,7 @@ It can also be used as voltage clamper and voltage reference applications.
 \end{figure}  
 \pagebreak
 \subsection{Pspice simulations}
-\label{sec:org5eb1e5f}
+\label{sec:org2ec31d7}
 
 We did Pspice simulation In \url{https://www.falstad.com/circuit/} \cite{Falsted} by Paul Falsted. Here are simlations result from different blocks. This outputs are for Potentiometer valued at \(3.3k\Omega\). We gain peek to peek voltage value at \(2.8917V\) for sine wave and \(2.11V\) and \(2.2\) in square wave and triangular wave respectively. This figures are from matplotlib \cite{Hunter:2007}\cite{harris2020array}, since we could not get from falsted. We got accurate p-p voltages.
 
